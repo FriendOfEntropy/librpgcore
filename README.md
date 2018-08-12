@@ -1,1 +1,1 @@
-# rpgcore
+# librpgcore
