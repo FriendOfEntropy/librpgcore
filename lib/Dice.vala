@@ -16,6 +16,8 @@
  *
  */
 namespace RPGCore {
+  
+  using Gsl;
 
   public enum DiceType
   {
@@ -34,19 +36,25 @@ namespace RPGCore {
 
   }
 
+  
 
   /// <summary>
   /// The Dice class wraps the Random class, automatically providing seeding.
   /// </summary>
   public class Dice
   {
-    Rand rand;
-    
+    RNGType* T;
+    RNG r;
+
     public Dice()
     {
-      DateTime now = new DateTime.now_local ();
-      int seed = now.get_hour() + now.get_microsecond () + now.get_minute() + now.get_second ();
-      rand = new Rand.with_seed(seed);
+      //DateTime now = new DateTime.now_local ();
+      //int seed = now.get_hour() + now.get_microsecond () + now.get_minute() + now.get_second ();
+      //rand = new Rand.with_seed(seed);
+
+      RNG.env_setup ();
+      T = (RNGType*) RNGTypes.default;
+      r = new RNG (T);
     }
 
     public int roll_dicetype(RPGCore.DiceType dicetype, int numberOfDice = 1, bool dropLowestRoll = false)
@@ -61,11 +69,22 @@ namespace RPGCore {
 
     private int roll(int numberOfRolls, int min, int max, bool dropLowestRoll)
     {
+      DateTime now = new DateTime.now_local ();
+      int seed = now.get_hour() + now.get_microsecond () + now.get_minute() + now.get_second ();
+      r.set(seed);
+
       List<int> results = new List<int>();
       int total = 0;
 
+      int result = -1;
+
       for(uint x = 0; x <= (numberOfRolls - 1); x++) {
-        int result = rand.int_range(min, max);
+
+        do { 
+          ulong u = r.uniform_int (max);
+          result = (int) u + 1;
+        } 
+        while (result < min);          
         results.append(result);
       }
       results.sort(intcmp);

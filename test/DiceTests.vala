@@ -41,7 +41,7 @@ public class DiceTests : AbstractTestCase {
     add_test ("Roll 1d12 ", test_roll_1d12) ;
     add_test ("Roll 1d20 ", test_roll_1d20) ;    
     add_test ("Roll 4d6 And Drop Lowest ", test_roll_4d6_droplowest) ;    
-    add_test ("Display Results ", test_fail_to_display) ;    
+    //add_test ("This line to force display ", test_fail_to_display) ;    
   }
 
   public override void set_up() {

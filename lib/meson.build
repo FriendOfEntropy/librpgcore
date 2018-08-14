@@ -14,7 +14,7 @@ librpgcore = shared_library ( 'rpgcore',
   vala_gir: meson.project_name() + '-' + meson.project_version() + '.gir',
   vala_vapi: meson.project_name() + '.vapi',
   vala_header: meson.project_name() + '.h',
-  dependencies: [ glib_dep, gee_dep ],
+  dependencies: [ glib_dep, gee_dep, gsl_dep ],
   c_args: [ '-g' ],
   link_args: ['-lm'],
   install: true,
@@ -30,6 +30,7 @@ pkg.generate(
     'glib-2.0',
     'gobject-2.0',
     'gee-0.8',
+    'gsl'
   ],
 )
 

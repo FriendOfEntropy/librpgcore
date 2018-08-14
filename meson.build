@@ -30,6 +30,7 @@ glib_min_version = '2.48.2'
 glib_dep = dependency ('glib-2.0', version: '>=' + glib_min_version)
 gobject_dep = dependency ('gobject-2.0', version: '>=' + glib_min_version)
 gee_dep = dependency ('gee-0.8', version: '>=0.20.0')
+gsl_dep = dependency ('gsl')
 
 subdir ('lib')
 subdir ('test')

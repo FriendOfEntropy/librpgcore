@@ -9,7 +9,7 @@ test_sources = files([
 tests = executable(
     test_name,
     sources: test_sources,
-    dependencies: [ glib_dep, gee_dep, lib_dep ],
+    dependencies: [ glib_dep, gee_dep, gsl_dep, lib_dep ],
     c_args: [ '-g' ],
     link_args: ['-lm'],
     install: false
