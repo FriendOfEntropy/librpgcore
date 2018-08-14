@@ -2,6 +2,8 @@ test_name = meson.project_name() + '-test'
 
 test_sources = files([
   'TestRunner.vala',
+  'DiceTests.vala',
+  'AbstractTestCase.vala'
 ])
 
 tests = executable(
