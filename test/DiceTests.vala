@@ -32,6 +32,7 @@ public class DiceTests : AbstractTestCase {
     add_test ("Roll 1 to 6", test_roll_1to6) ;
     add_test ("Roll 1 to 8", test_roll_1to8) ;
     add_test ("Roll 1 to 100", test_roll_1to100) ;
+    add_test ("Roll 1 to 100 Default to 1 Roll, do not drop lowest", test_roll_1to100_defaults) ;
     add_test ("Roll 1 to 6 Three Times", test_roll_1to6_3_times) ;
     add_test ("Roll 1d3 ", test_roll_1d3) ;
     add_test ("Roll 1d4 ", test_roll_1d4) ;
@@ -72,6 +73,12 @@ public class DiceTests : AbstractTestCase {
 
   public virtual void test_roll_1to100() {
     int result = d.roll_range(1, 100, 1, false);
+    stdout.printf ("Total = %d ", result);
+    assert ((result >= 1) && (result <= 100));
+  } 
+
+  public virtual void test_roll_1to100_defaults() {
+    int result = d.roll_range(1, 100);
     stdout.printf ("Total = %d ", result);
     assert ((result >= 1) && (result <= 100));
   } 

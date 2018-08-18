@@ -1,0 +1,504 @@
+{
+  "mutations": [
+    {
+      "from": 1,
+      "to": 2,
+      "name": "Extra Digits",
+      "category": "Cosmetic",
+      "desc": "You gain an extra digit on each hand and foot. The extra fingers or toes, although fully functional, do not confer any special benefit, nor do they hinder you in any way.",
+      "benefit": "None",
+      "special": "None",
+      "mp": 0
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "name": "Fins",
+      "category": "Cosmetic",
+      "desc": "Your body sprouts fishlike fins. A fin might begin on the top of your head and go all the way down your spine. Others might appear on your forearms or calves, or they might sprout from your shoulders or ears. The fins confer no special abilities.",
+      "benefit": "None",
+      "special": "None",
+      "mp": 0
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "name": "Forked Tongue",
+      "category": "Cosmetic",
+      "desc": "You gain a forked tongue like that of a snake. Your new tongue might be a different color and longer than your old one.",
+      "benefit": "None",
+      "special": "None",
+      "mp": 0
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "name": "Horns",
+      "category": "Cosmetic",
+      "desc": "Two or more tiny horns sprout from your head, shoulders, or arms. These blunt-tipped nubs are too small to serve any use in combat.",
+      "benefit": "None",
+      "special": "None",
+      "mp": 0
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "name": "Scaly Skin",
+      "category": "Cosmetic",
+      "desc": "Your flesh becomes thicker and less porous, giving rise to a thin layer of scales covering your flesh. The scales are typically smooth and dry, like those of a snake, and can vary in color and pattern. The scales may not cover your entire body, instead appearing in patches on your face, neck, torso, and limbs.",
+      "benefit": "None",
+      "special": "A creature with fur, scales, or chitin cannot gain this mutation.",
+      "mp": 0
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "name": "Thin Fur Coat",
+      "category": "Cosmetic",
+      "desc": "You grow a thin coat of brown or golden-brown fur, similar to that of a small mammal.",
+      "benefit": "None",
+      "special": "A creature with fur, scales, or chitin cannot gain this mutation.",
+      "mp": 0
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "name": "Unnatural Eyes",
+      "category": "Cosmetic",
+      "desc": "The color of your eyes changes drastically. The color, whatever it may be, is unnatural and atypical of your species. Perhaps your eyes turn dead black, maybe they change color to suit your mood, or perhaps they glow faintly in the dark.",
+      "benefit": "None",
+      "special": "None",
+      "mp": 0
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "name": "Unnatural Hair",
+      "category": "Cosmetic",
+      "desc": "Your hair or fur color changes drastically to a shade that is uncommon for your species. You may have fur or hair that is multicolored, streaked, splotched, or slightly luminescent. Your hair or fur may also change color with your mood.",
+      "benefit": "None",
+      "special": "None",
+      "mp": 0
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "name": "Unnatural Skin",
+      "category": "Cosmetic",
+      "desc": "The color of your skin or exoskeleton changes drastically, assuming a hue or texture that is both unnatural and atypical of your species. Your skin might be a single color, splotched, or patterned in some freakishly unnatural way. Your skin might gain dynamic pigments that change color based on outside stimuli, such as exposure to ultraviolet light.",
+      "benefit": "None",
+      "special": "None",
+      "mp": 0
+    },
+    {
+      "from": 19,
+      "to": 20,
+      "name": "Unnatural Voice",
+      "category": "Cosmetic",
+      "desc": "Your voice changes in some marked fashion. It might change pitch or become more lyrical, raspy, whispery, or guttural.",
+      "benefit": "None",
+      "special": "None",
+      "mp": 0
+    },
+    {
+      "from": 21,
+      "to": 22,
+      "name": "Acidic Saliva",
+      "category": "Minor",
+      "desc": "Your saliva can burn other creatures like acid.",
+      "benefit": "Your bite attack deals an extra 1d4 points of acid damage with each successful hit.",
+      "special": "You must have a natural bite attack to take this mutation. You cannot gain this mutation if you have the Venomous Bite mutation.",
+      "mp": 1
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "name": "Adrenaline Jolt",
+      "category": "Minor",
+      "desc": "You can flood your bloodstream with extreme amounts of adrenaline to temporarily boost your Strength or Dexterity.",
+      "benefit": "Once per day, as a free action, you can temporarily increase either your Strength or your Dexterity by 1d4+1 points. The increase lasts for a number of rounds equal to 3 + your Constitution modifier.",
+      "special": "None",
+      "mp": 3
+    },
+    {
+      "from": 25,
+      "to": 26,
+      "name": "Claws",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 1
+    },
+    {
+      "from": 27,
+      "to": 28,
+      "name": "Darkvision",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 3
+    },
+    {
+      "from": 29,
+      "to": 30,
+      "name": "Energy Diffusion",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 2
+    },
+    {
+      "from": 31,
+      "to": 32,
+      "name": "Fangs",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 1
+    },
+    {
+      "from": 33,
+      "to": 34,
+      "name": "Force Barrier",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 3
+    },
+    {
+      "from": 35,
+      "to": 36,
+      "name": "Gills",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 2
+    },
+    {
+      "from": 37,
+      "to": 38,
+      "name": "Great Horns",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 1
+    },
+    {
+      "from": 39,
+      "to": 40,
+      "name": "Hypersensitivity",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 3
+    },
+    {
+      "from": 41,
+      "to": 42,
+      "name": "Leaper",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 1
+    },
+    {
+      "from": 43,
+      "to": 44,
+      "name": "Scaly Armor",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 3
+    },
+    {
+      "from": 45,
+      "to": 46,
+      "name": "Scent",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 2
+    },
+    {
+      "from": 47,
+      "to": 48,
+      "name": "Second Wind",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 2
+    },
+    {
+      "from": 49,
+      "to": 50,
+      "name": "Smokescreen",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 1
+    },
+    {
+      "from": 51,
+      "to": 52,
+      "name": "Tail",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 1
+    },
+    {
+      "from": 53,
+      "to": 54,
+      "name": "Thick Fur Coat",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 1
+    },
+    {
+      "from": 55,
+      "to": 56,
+      "name": "Ultra Immune System",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 2
+    },
+    {
+      "from": 57,
+      "to": 58,
+      "name": "Wall Crawler",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 2
+    },
+    {
+      "from": 59,
+      "to": 60,
+      "name": "Webbed Digits",
+      "category": "Minor",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 1
+    },
+    {
+      "from": 61,
+      "to": 62,
+      "name": "Echolocator",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 5
+    },
+    {
+      "from": 63,
+      "to": 64,
+      "name": "Elasticity",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 5
+    },
+    {
+      "from": 65,
+      "to": 66,
+      "name": "Energy Absorption",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 4
+    },
+    {
+      "from": 67,
+      "to": 68,
+      "name": "Enlarged Form",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 6
+    },
+    {
+      "from": 69,
+      "to": 70,
+      "name": "Exoskeleton",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 5
+    },
+    {
+      "from": 71,
+      "to": 72,
+      "name": "Extra Arms",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 6
+    },
+    {
+      "from": 73,
+      "to": 74,
+      "name": "Gazing Eye",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 4
+    },
+    {
+      "from": 75,
+      "to": 76,
+      "name": "Pheromone Attraction",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 6
+    },
+    {
+      "from": 77,
+      "to": 78,
+      "name": "Prehensile Tail",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 4
+    },
+    {
+      "from": 79,
+      "to": 80,
+      "name": "Prickly Pear",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 4
+    },
+    {
+      "from": 81,
+      "to": 82,
+      "name": "Radioactive",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 5
+    },
+    {
+      "from": 83,
+      "to": 84,
+      "name": "Skeletal Reinforcement",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 5
+    },
+    {
+      "from": 85,
+      "to": 86,
+      "name": "Stinger",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 4
+    },
+    {
+      "from": 87,
+      "to": 88,
+      "name": "Telekinetic Mind",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 5
+    },
+    {
+      "from": 89,
+      "to": 90,
+      "name": "Telepathy",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 5
+    },
+    {
+      "from": 91,
+      "to": 92,
+      "name": "Tentacle",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 6
+    },
+    {
+      "from": 93,
+      "to": 94,
+      "name": "Venomous Bite",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 4
+    },
+    {
+      "from": 95,
+      "to": 96,
+      "name": "Vexing Voice",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 4
+    },
+    {
+      "from": 97,
+      "to": 98,
+      "name": "Wings",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 6
+    },
+    {
+      "from": 99,
+      "to": 100,
+      "name": "X-Ray Vision",
+      "category": "Major",
+      "desc": "",
+      "benefit": "None",
+      "special": "None",
+      "mp": 6
+    }
+  ]
+}

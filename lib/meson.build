@@ -5,21 +5,25 @@ vala_args = [
 ]
 
 lib_sources = files([
-  'Dice.vala'
+  'src/Dice.vala',
+  'src/MutationGenerator.vala',
+  'src/Mutation.vala'
 ])
 
-librpgcore = shared_library ( 'rpgcore',
+librpgcore = shared_library ( 'librpgcore',
   lib_sources,
+  code_resources,
   version: meson.project_version(),
   vala_gir: meson.project_name() + '-' + meson.project_version() + '.gir',
   vala_vapi: meson.project_name() + '.vapi',
   vala_header: meson.project_name() + '.h',
-  dependencies: [ glib_dep, gee_dep, gsl_dep ],
+  dependencies: [ gio_dep, glib_dep, gee_dep, gsl_dep, json_dep ],
   c_args: [ '-g' ],
-  link_args: ['-lm'],
-  install: true,
-  install_dir: [true, true, true, true],
+  link_args: ['-lm']
+  # install: true,
+  # install_dir: [true, true, true, true],
 )
+
 
 pkg.generate(
   libraries: librpgcore,
@@ -30,6 +34,7 @@ pkg.generate(
     'glib-2.0',
     'gobject-2.0',
     'gee-0.8',
+    'gio-2.0',
     'gsl'
   ],
 )
