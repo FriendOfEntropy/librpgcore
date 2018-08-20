@@ -6,9 +6,10 @@ vala_args = [
 
 lib_sources = files([
   'src/Dice.vala',
-  'src/MutationGenerator.vala',
   'src/Mutation.vala',
-  'src/Ability.vala'
+  'src/MutationGenerator.vala',
+  'src/Ability.vala',
+  'src/AbilityGenerator.vala'
 ])
 
 librpgcore = shared_library ( 'librpgcore',

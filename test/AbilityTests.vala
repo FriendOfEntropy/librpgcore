@@ -34,7 +34,7 @@ public class AbilityTests : AbstractTestCase {
     add_test ("Test To String", test_to_string_5) ;
     add_test ("Test To String", test_to_string_6) ;
     add_test ("Test To String", test_to_string_7) ;
-    add_test ("This line to force display ", test_fail_to_display) ;    
+    //add_test ("This line to force display ", test_fail_to_display) ;    
   }
 
   public override void set_up() {
