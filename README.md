@@ -1,23 +1,20 @@
 # librpgcore
 
 
-`
-  d = new RPGCore.Dice();
+```
+d = new RPGCore.Dice();
+int result = d.roll_dicetype(DiceType.d6, 3);
+```
 
-  int result = d.roll_dicetype(DiceType.d6, 3);
-`
 
-
-`
-  d = new RPGCore.Dice();
-
-  int result = d.roll_dicetype(DiceType.d6, 4, true);
-`
+```
+d = new RPGCore.Dice();
+int result = d.roll_dicetype(DiceType.d6, 4, true);
+```
  
 
 
-`
-  d = new RPGCore.Dice();
-  
-  int result = d.roll_range(1, 100);
-`
+```
+d = new RPGCore.Dice();
+int result = d.roll_range(1, 100);
+```
