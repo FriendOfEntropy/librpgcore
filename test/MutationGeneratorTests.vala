@@ -45,7 +45,7 @@ public class MutationGeneratorTests : AbstractTestCase {
     add_test ("Get 4 Points of Mutations", test_get_mutations_cost_constrained_4) ;
     add_test ("Get 5 Points of Mutations", test_get_mutations_cost_constrained_5) ;
     add_test ("Get 6 Points of Mutations", test_get_mutations_cost_constrained_6) ;    
-    add_test ("This line to force display ", test_fail_to_display) ;    
+    //add_test ("This line to force display ", test_fail_to_display) ;    
   }
 
   public override void set_up() {

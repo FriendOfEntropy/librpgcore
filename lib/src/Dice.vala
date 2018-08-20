@@ -15,6 +15,7 @@
  * SOFTWARE.
  *
  */
+
 namespace RPGCore {
   
   using Gsl;

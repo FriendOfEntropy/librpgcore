@@ -18,20 +18,30 @@
 
 namespace RPGCore {
 
-  using GLib;
-
-  public class Mutation : GLib.Object {
-    public int from { get; set; }
-    public int to { get; set; }
+  public class Ability : GLib.Object {
+    public int score { get; set; }
     public string name { get; set; }
-    public string category { get; set; }
+    public string abbreviation { get; set; }
     public string desc { get; set; }
-    public string benefit { get; set; }
-    public string special { get; set; }
-    public int mp { get; set; }
 
-    public Mutation() {
+    public int modifier { 
+      get {
+        return (score / 2) -5;
+      } 
     }
 
+    public Ability(string name, string abbreviation) {
+      this.name = name;
+      this.abbreviation = abbreviation;
+    }
+
+    public string to_string()
+    {
+      string paddedName = (string.nfill(12, ' ') + name);
+      string paddedScore = string.nfill(2, ' ') + score.to_string();
+      string trimmedName = paddedName.substring(paddedName.char_count() - 12, 12);
+      string trimmedScore = paddedScore.substring(paddedScore.char_count() - 2, 2);
+      return trimmedName  + ": " + trimmedScore + "  (% d)".printf(modifier);
+    }
   }
 }

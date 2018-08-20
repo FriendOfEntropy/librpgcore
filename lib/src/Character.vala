@@ -19,19 +19,18 @@
 namespace RPGCore {
 
   using GLib;
+  using Gee;
 
-  public class Mutation : GLib.Object {
-    public int from { get; set; }
-    public int to { get; set; }
-    public string name { get; set; }
-    public string category { get; set; }
-    public string desc { get; set; }
-    public string benefit { get; set; }
-    public string special { get; set; }
-    public int mp { get; set; }
+  public class Character : GLib.Object {
+    
+    public string name { get; set; }    
+    public public HashMap<string, Ability> Abilities { get; set; }
+    public public HashMap<string, Mutation> Mutations { get; set; }
 
-    public Mutation() {
+    public Character() {
+      Abilities = new HashMap<string, Ability>();
+      Mutations = new HashMap<string, Mutation>();
     }
-
+    
   }
 }

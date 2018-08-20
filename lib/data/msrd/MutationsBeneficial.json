@@ -125,8 +125,8 @@
       "to": 26,
       "name": "Claws",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "Your hands mutate into sharp claws.",
+      "benefit": "You gain a single claw attack that deals slashing damage dependent on your size: Small 1d4, Medium-size 1d6, Large 1d8. If you get multiple attacks in a round, you can strike with multiple claws. Your claws are treated as natural weapons and do not provoke attacks of opportunity. Having claws does not adversely affect your manual dexterity.",
       "special": "None",
       "mp": 1
     },
@@ -135,8 +135,8 @@
       "to": 28,
       "name": "Darkvision",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "You gain darkvision.",
+      "benefit": "You can see in total darkness out to a range of 60 feet. Darkvision is black and white only but is otherwise like normal sight.",
       "special": "None",
       "mp": 3
     },
@@ -145,8 +145,8 @@
       "to": 30,
       "name": "Energy Diffusion",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "Your body’s ability to withstand energy damage increases.",
+      "benefit": "You gain resistance 5 to two types of energy or resistance 10 to one type of energy, chosen from the following list: acid, cold, electricity, fire, or sonic/concussion.",
       "special": "None",
       "mp": 2
     },
@@ -155,9 +155,9 @@
       "to": 32,
       "name": "Fangs",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
-      "special": "None",
+      "desc": "Your teeth mutate into vicious fangs.",
+      "benefit": "You gain a vicious bite attack that deals piercing damage dependent on your size: Small 1d4, Medium-size 1d6, Large 1d8. If you get multiple attacks in a round, you can bite multiple times. Your bite is treated as a natural weapon and does not provoke attacks of opportunity.",
+      "special": "This mutation can be used in conjunction with the Acidic Saliva or Venomous Bite mutation.",
       "mp": 1
     },
     {
@@ -165,9 +165,9 @@
       "to": 34,
       "name": "Force Barrier",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
-      "special": "None",
+      "desc": "You can generate an electromagnetic force field around yourself to deflect or absorb incoming attacks.",
+      "benefit": "As a free action, you can generate an invisible electromagnetic barrier around yourself that provides damage reduction 3/– against incoming weapon attacks and force effects. The barrier lasts a number of rounds equal to your current Constitution modifier (minimum 1 round). You can create the force field three times per day.",
+      "special": "Portable electronic devices such as cell phones, sensor comps, and headsets temporarily cease to function if held or worn by you while the electromagnetic force barrier is in effect.",
       "mp": 3
     },
     {
@@ -175,8 +175,8 @@
       "to": 36,
       "name": "Gills",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "You grow a set of gills that can draw the oxygen out of water. The gills appear on your neck, chest, or back (near your windpipe or lungs).",
+      "benefit": "You can breathe both air and water. You can operate underwater indefinitely, with no fear of drowning.",
       "special": "None",
       "mp": 2
     },
@@ -195,8 +195,8 @@
       "to": 40,
       "name": "Hypersensitivity",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "Your are particularly (some might say unnaturally) sensitive to your surroundings.",
+      "benefit": "You gain a +2 mutation bonus on Listen, Search, and Spot checks. You also gain Blind-Fight as a bonus feat.",
       "special": "None",
       "mp": 3
     },
@@ -205,8 +205,8 @@
       "to": 42,
       "name": "Leaper",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "You gain the ability to leap incredible distances.",
+      "benefit": "You gain a +10 mutation bonus on all Jump checks.",
       "special": "None",
       "mp": 1
     },
@@ -215,9 +215,9 @@
       "to": 44,
       "name": "Scaly Armor",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
-      "special": "None",
+      "desc": "Thick, overlapping scales cover your body. The scales are hard but dry to the touch.",
+      "benefit": "You gain a +2 natural armor bonus to Defense, or your existing natural armor bonus improves by 2.",
+      "special": "A creature with fur, chitin, or the Exoskeleton mutation cannot gain this mutation.",
       "mp": 3
     },
     {
@@ -225,8 +225,8 @@
       "to": 46,
       "name": "Scent",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "You can detect approaching enemies, sniff out hidden foes, and track by sense of smell. You can also identify familiar odors the way humans do familiar sights.",
+      "benefit": "You gain the scent special ability.",
       "special": "None",
       "mp": 2
     },
@@ -235,8 +235,8 @@
       "to": 48,
       "name": "Second Wind",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "You can shrug off minor wounds with ease.",
+      "benefit": "Once per day, as a free action, you can heal yourself of a number of points of damage equal to your Constitution modifier (minimum 1).",
       "special": "None",
       "mp": 2
     },
@@ -245,8 +245,8 @@
       "to": 50,
       "name": "Smokescreen",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "You expel chemicals through your pores to create an inky-black cloud of smoke, engulfing yourself and the surrounding area.",
+      "benefit": "Once per day, as a free action, you can produce a 20-foot-radius cloud of smoke centered on yourself. The cloud is stationary once created. The inky-black smoke obscures all sight, including darkvision, beyond 5 feet. A creature 5 feet away has onehalf concealment (20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target). This ability functions underwater. A moderate wind or current disperses the cloud in 4 rounds. A strong wind or current disperses the cloud in 1 round.",
       "special": "None",
       "mp": 1
     },
@@ -255,9 +255,9 @@
       "to": 52,
       "name": "Tail",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
-      "special": "None",
+      "desc": "You grow a thick tail. The tail may be fur-covered, slender and whiplike like a rat’s, or scaly like a lizard’s. Although the tail improves your balance and can serve as a weapon, it cannot be used for gripping objects.",
+      "benefit": "The tail provides a +2 mutation bonus on all Balance checks. In addition, you gain a single tail slam attack that deals bludgeoning damage dependent on your size: Small 1d4, Medium-size 1d6, Large 1d8. If you get multiple attacks in a round, you can strike multiple times with your tail. Your tail is treated as a natural weapon and does not provoke attacks of opportunity.",
+      "special": "A creature that already has a tail or the Prehensile Tail mutation cannot gain this mutation. This mutation can be used in conjunction with the Stinger mutation.",
       "mp": 1
     },
     {
@@ -265,9 +265,9 @@
       "to": 54,
       "name": "Thick Fur Coat",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
-      "special": "None",
+      "desc": "You grow a thick, protective layer of fur over your body.",
+      "benefit": "You gain a +4 mutation bonus on Fortitude saves against extreme cold temperatures.",
+      "special": "A creature with fur, scales, or chitin cannot gain this mutation.",
       "mp": 1
     },
     {
@@ -275,8 +275,8 @@
       "to": 56,
       "name": "Ultra Immune System",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "You develop a powerful immune system capable of repelling many poisons, diseases, and radiation sickness.",
+      "benefit": "You gain Ultra Immune System as a bonus feat even if you don’t meet the feat’s prerequisite. The bonus you gain on Fortitude saves against poisons, diseases, and radiation is treated as a mutation bonus.",
       "special": "None",
       "mp": 2
     },
@@ -285,8 +285,8 @@
       "to": 58,
       "name": "Wall Crawler",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "You can walk walls and cling to ceilings like a spider. You have tiny barbs on your hands and feet to facilitate climbing, and your fingers and toes secrete a transparent adhesive that lets you cling to smooth surfaces.",
+      "benefit": "As long as your hands and feet are uncovered, you can climb perfectly smooth, flat, vertical surfaces. In addition, you gain a +4 mutation bonus on all Climb checks. Wearing gloves or footwear reduces the bonus to +2, and wearing both gloves and footwear negates the bonus entirely. You also gain a +4 mutation bonus on Balance checks when moving a cross a slippery surface. Wearing any kind of footwear negates this bonus.",
       "special": "None",
       "mp": 2
     },
@@ -295,8 +295,8 @@
       "to": 60,
       "name": "Webbed Digits",
       "category": "Minor",
-      "desc": "",
-      "benefit": "None",
+      "desc": "You grow webbing between your fingers or toes and can move more easily through liquids.",
+      "benefit": "You gain a +4 mutation bonus on all Swim checks. Having webbed digits does not interfere with your ability to grasp or manipulate objects.",
       "special": "None",
       "mp": 1
     },
