@@ -1,0 +1,722 @@
+{
+	"mutations": [{
+		"name": "Aberrant Horn Development",
+		"from": 1,
+		"to": 2,
+		"description": "The mutant’s hair and bone growth has become accelerated and pronounced on the head area, and a pair of 'horns' (or even 'antlers,' with advanced development) has grown on her head, allowing her to make a gore attack.",
+		"benefitOrPenalty": "Mutant gains a natural weapon, allowing her to make a gore attack for 1d6 damage",
+		"advancement": "Each advancement of this mutation increases the damage dice of the attack in the following progression: 1d8, 2d6, and 2d8",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Aberrant Endoskeletal Encasing",
+		"from": 3,
+		"to": 4,
+		"description": "This mutation is caused by an aggressive explosion in the production of bone and cartilage between the ribs of the mutant’s skeletal frame, creating a thick and reﬂective bone 'shield' encasing his vitals. This growth is segmented so the spine will still allow a good degree of ﬂexibility.",
+		"benefitOrPenalty": "Mutant gains damage reduction of 2/- against piercing and ballistic attacks.",
+		"advancement": "Each advancement of this mutation increases the damage reduction against piercing and ballistic attacks by 2 to a maximum of 10.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Abnormal Joint Flexibility",
+		"from": 5,
+		"to": 6,
+		"description": "This mutation allows the mutant to alter her body in some small manner by dislocating fingers, arms, legs, etc. This allows an incredible degree of bodily flexibility.",
+		"benefitOrPenalty": "Mutant gains a +2 bonus to Escape Artist, Sleight of Hand, Tumble, and Climb checks. In addition, the mutant gains a +2 bonus to grappling attempts.",
+		"advancement": "Each advancement of this mutation increases the bonuses by +2 to a maximum of +6.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Accelerated White Blood Cell Activity",
+		"from": 7,
+		"to": 7,
+		"description": "This mutation increases the mutant’s ability to heal even the most extensive injuries.",
+		"benefitOrPenalty": "The mutant gains the ability to spontaneously heal wounds at a rate of 2 hit points per ten minutes. This healing ability is limited to wounds caused by bludgeoning, ballistic, piercing, and slashing weapons. Damage caused by heat, cold, electricity, acid, sonic or energy weapons must heal normally.",
+		"advancement": "Each advancement of this mutation increases the rate of healing by 1 to a maximum of 5.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Accumulated Resistance",
+		"from": 8,
+		"to": 9,
+		"description": "The mutant has built up a resistance to various agents (chemicals, poisons, drugs, and diseases).",
+		"benefitOrPenalty": "The mutant gains a +4 bonus to all Fortitude saves against chemicals, poisons, drugs, and diseases. This does not include radiation.",
+		"advancement": "Each advancement of this mutation increases the bonus by +2 to a maximum of +8.",
+		"special": "This bonus also applies to Medical Incompatibility checks.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Acid Excretion Glands",
+		"from": 10,
+		"to": 10,
+		"description": "The mutant has developed sub dermal glands—usually either a development of the salivary glands in the mouth or special sweat glands elsewhere on the body—that produce acidic enzymes. The mutant can use these glands to squirt a stream of concentrated acid a distance of up to ten feet.",
+		"benefitOrPenalty": "The mutant can make a ranged touch attack up to 10 feet away using his base attack bonus. This attack does 1d6+1 damage per character level (up to a maximum of +10) and counts as an attack action. The mutant cannot produce unlimited acid and may only use this ability a number of times per day equal to her Constitution modifier + 1 (minimum 1).",
+		"advancement": "Each advancement of this mutation increases the damage dice by 1d6 and the range by 5 feet to a maximum of 5d6 and 30 feet.",
+		"special": "The acid loses potency quickly after exposure to air, so it cannot be decanted or stored for later use.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Adrenaline Control",
+		"from": 11,
+		"to": 12,
+		"description": "The mutant has developed a fine control over his adrenal system, allowing him to exert and extend himself at will. After the adrenaline rush has passed, the mutant must rest to recoup.",
+		"benefitOrPenalty": "The mutant can trigger an adrenaline surge that increases his speed, stamina, strength, and pain tolerance. During the rush, the mutant temporarily gains a +4 to Strength and Constitution and a 25% increase to his base speed (rounded up to the nearest 5 feet). The rush lasts a number of rounds equal to 3 + the mutant’s (newly improved) Constitution modifier, but it can be stopped voluntarily. Triggering a rush is a free action. After the rush, the mutant is fatigued for one hour and suffers a –2 to Strength and Dexterity. A mutant may trigger an adrenaline rush once per day.",
+		"advancement": "Each advancement of this mutation allows the mutant to trigger an adrenaline rush one additional time per day.",
+		"special": "This mutation can only be advanced at first level. Also, the mutant cannot wear armor unless it is specifically designed to fit him.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Additional Limb Development",
+		"from": 13,
+		"to": 13,
+		"description": "The mutant has developed an additional limb. This limb may extend from any part of the mutant’s torso. In most cases, the additional limb will be an arm, tentacle, or similar tool-wielding limb. Less frequently, it will be a limb that assists in locomotion.",
+		"benefitOrPenalty": "The mutant gains an additional limb. An additional arm grants the mutant an additional attack whenever the full attack option is used in combat. If the mutant has natural attacks (claws), secondary attacks are made at –5. If the mutant uses weapons in his extra hand(s), his primary attack is at –6 and all secondary attacks are at –10. Feats such as Multiattack and Multiweapon Fighting can reduce these penalties.",
+		"advancement": "Each advancement of this mutation grants the mutant an additional limb. It is possible for a mutant to have both extra arms and extra legs. Each additional arm grants the mutant an additional attack whenever the full attack option is used in combat. Each additional leg increases the mutant’s base move by 5 feet and adds +2 to Balance checks.",
+		"special": "This mutation can only be advanced at first level. Also, the mutant cannot wear armor unless it is specifically designed to fit him. Note: If the GM wants to determine the limb type randomly, roll 1d6. A roll of 1 to 4 is an arm and 5-6 is a leg.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Autism",
+		"from": 14,
+		"to": 14,
+		"description": "The mutant is autistic, suffering from a rare type of mental retardation that has remarkable side effects— effects that generally defy rational explanation.",
+		"benefitOrPenalty": "The mutant rolls 1d6 each time he makes an Intelligence-based skill check. On a roll of 1–4, he receives no bonus (other than that given by his regular ranks and attribute modifier). On a roll of 5 or 6, however, he receives a special, one-time competence bonus of +20 to that particular check.  Those skills potentially affected include Computer Use, Decipher Script, Demolitions, Disable Device, Forgery, Investigate, Knowledge, Navigate, Repair, Research, and Search. However, this ability does not work with the Craft Skill, or if a character is taking 20 on a skill check.",
+		"advancement": "Each advancement of this mutation increases the chance of gaining the autism bonus by one (1-3 no bonus, 4-6 bonus). This mutation can be advanced up to two times (1-2 no bonus, 3-6 bonus).",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Blindsight",
+		"from": 15,
+		"to": 16,
+		"description": "The mutant has developed a sense that allows him to detect creatures within a limited range even in circumstances where normal vision is impaired (such as blindness, total darkness, or creature invisibility). This ability could take the form of acute hearing, acute vibration sense, or echolocation, the GM and player may decide the exact specifics.",
+		"benefitOrPenalty": "The mutant gains the Blindsight ability at a range of 10 feet. Invisibility and darkness are irrelevant to his enhanced senses. The mutant normally does not need to make Spot or Listen checks to notice creatures within the range of his Blindsight.",
+		"advancement": "Each advancement of this mutation increases range by 10 feet.",
+		"special": "The GM should carefully consider the form of mutant’s blindsight, as situations will inevitably arise in which it could be negated or useless.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Chameleon Epidermis",
+		"from": 17,
+		"to": 18,
+		"description": "The cellular structure of the mutant’s epidermis (skin) has mutated, allowing the cells to alter their appearance and color. This provides the mutant with an exceptional talent for hiding, allowing him to remain undetected if he makes no sudden movements.",
+		"benefitOrPenalty": "The mutant can hide even without cover or concealment. His coloration provides a bonus to his Hide check based on how much of his skin is exposed and how fast he is moving. Use the list below to determine the mutant’s exact bonus (these circumstance bonuses stack).+8 Hide Stationary, not moving. +4 Hide Moving up to half speed. +0 Hide Moving faster than half speed. +8 Hide Mutant is nude, light load. +4 Hide Mutant is lightly clothed, medium load. +0 Hide Mutant is fully clothed, heavy load. The mutant may use this ability once per Constitution modifier (minimum of 1) per day. Changing color is a full-round action and has a maximum duration of one minute per Constitution (minimum 10).",
+		"advancement": "Each advancement allows the mutant to activate this power one additional time per Constitution modifier per day.",
+		"special": "A mutant using this ability while nude and stationary receives a +16 bonus to Hide checks, and is almost completely invisible. The mutant is considered to have one half concealment (20% chance of missing) for purposes of melee and ranged attacks against him.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Claws",
+		"from": 19,
+		"to": 20,
+		"description": "This mutation has altered the mutant’s fingernails so that they can be used as formidable natural weapons. Some variety has been observed in claw development; most mutants have fixed claws, though a few have been found to have retractable claws. Most (but not all) mutants have claws on their feet as well.",
+		"benefitOrPenalty": "The mutant’s hands are now natural weapons that allow him to make a claw attack for 1d6 points of damage. The claws provide a +2 bonus to Climb checks.",
+		"advancement": "Each advancement of this mutation increases the damage dice of the claw attack in the following progression: 1d8, 1d10, and 2d6. It also increases the Climb check bonus by +1 (to maximum of +5).",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Complete Wing Development",
+		"from": 21,
+		"to": 21,
+		"description": "The mutant has developed a complete set of wings, in the form of fleshy membranes (as with bats), feathered appendages (as with birds), or even thin, rigid membranes (as with insects). These wings give the mutant the ability to fly for 30 minutes per point of Strength.",
+		"benefitOrPenalty": "The mutant gains the ability to fly. Movement rate is 50 feet (Clumsy).",
+		"advancement": "Each advancement of this mutation increases the speed by 10 feet to maximum of 80 feet.",
+		"special": "The mutant cannot wear armor unless it is specifically designed to fit him.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Dermal Suction",
+		"from": 22,
+		"to": 23,
+		"description": "The mutant has developed minute cilia or suction cups on the palms of her hands and the soles of her feet that allow her to climb smooth surfaces.",
+		"benefitOrPenalty": "The mutant can climb and travel on vertical surfaces or even traverse ceilings. The mutant must have its hands free to climb in this manner. The mutant gains a climb speed of half his base speed; furthermore, it need not make Climb checks to traverse a vertical or horizontal surface (even upside down). The mutant retains its Dexterity bonus to Defense (if any) while climbing, and opponents get no special bonus to their attacks against it. It cannot, however, use the run action while climbing.",
+		"advancement": "Advancing this mutation allows the mutant to climb at his full base speed (rather than half). This mutation may be advanced once.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Dermal Poison Sap",
+		"from": 24,
+		"to": 25,
+		"description": "The mutant is covered in a thick gooey 'sap' (like a plant) or 'slime' (like a frog) that is poisonous to those who touch him.",
+		"benefitOrPenalty": "Successful bare-hand attacks and bite attacks against the mutant require the attacker to make a Fortitude save or suffer the poison effects (DC14, Initial/Secondary Damage: 1d4/1d4 Str). Bare-hand, bite, and grapple attacks made by the mutant have the same effect.",
+		"advancement": "Each advancement of this mutation increases the Fortitude DC by 2 and the damage die by one rank (1d4 becomes 1d6).",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Dermal Spike Growth",
+		"from": 26,
+		"to": 27,
+		"description": "The mutant has developed thick, bone-like protrusions from his epidermis, protecting the affected areas from hits.",
+		"benefitOrPenalty": "This mutation allows the mutant to inflict 1d6 points of piercing damage (x2 for critical hits) with a successful grapple attack and grants a +2 natural armor bonus.",
+		"advancement": "Each advancement of this mutation increases the damage die by one rank (1d8, 1d10) to a maximum of 1d10 and the armor bonus by +2 to a maximum of +6.",
+		"special": "The mutant cannot wear armor unless it is specifically designed to fit him.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Diurnal",
+		"from": 28,
+		"to": 28,
+		"description": "The mutant’s metabolism is tied to the daily cycle of the rising and setting of the sun.",
+		"benefitOrPenalty": "Either the mutant’s Strength or Dexterity is affected. The mutant receives a +2 bonus to Strength or Dexterity during his peak activity cycle (from 6 A.M. to 6 P.M.) The bonus (Strength or Dexterity)  must be determined during character creation and cannot be altered.",
+		"advancement": "Each advancement of this mutation increases the ability bonus by +2.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Nocturnal",
+		"from": 29,
+		"to": 29,
+		"description": "The mutant’s metabolism is tied to the daily cycle of the rising and setting of the sun.",
+		"benefitOrPenalty": "Either the mutant’s Strength or Dexterity is affected. The mutant receives a +2 bonus to Strength or Dexterity during his peak activity cycle (from 6 P.M. to 6 A.M.) The bonus (Strength or Dexterity)  must be determined during character creation and cannot be altered.",
+		"advancement": "Each advancement of this mutation increases the ability bonus by +2.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Dual Cerebellum",
+		"from": 30,
+		"to": 30,
+		"description": "The mutant possesses two distinct and fully developed brains, housed in independent brain cavities within a single skull, and is thus capable of greater intelligence. A complete medical scan of the head will reveal the true independent nature of the two brains. If the mutant also possesses the Dual Head mutation, each head contains a brain.",
+		"benefitOrPenalty": "The mutant’s Intelligence modifier is doubled.",
+		"advancement": "None",
+		"special": "This does not affect the number of skills points a character receives. Determine skill points normally.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Dual Headed",
+		"from": 31,
+		"to": 32,
+		"description": "The mutant has developed a second head next to the first (on his shoulders) through a wild genetic deformation. Only one of the heads has an Actual brain, unless the mutant also possesses the Dual Cerebellum mutation.",
+		"benefitOrPenalty": "The mutant gains a +1 Spot and Listen bonus and cannot be flanked. Whenever she must save against blindness or deafness, she gets 2 save attempts, one for each head. If one head is blinded, she loses the spot bonus and can be flanked. If one head is deaf, the mutant loses her listen bonus.",
+		"advancement": "None",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Dwarfism",
+		"from": 33,
+		"to": 33,
+		"description": "The mutant’s physical size has been altered, either by a pituitary defect or a change in the body’s genetic program during growth and development. With this mutation, the mutant is a dwarf; his size and body weight are substantially decreased.",
+		"benefitOrPenalty": "The mutant is reduced one size category, which makes him harder to hit and easier to hide. For example, a Medium-size mutant would be reduced to Small. Small creatures gain a +1 size bonus to AC, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks. Dwarfed creatures must use smaller weapons than normal creatures of the same size; they cannot lift or carry as much as normal creatures, and they cannot move as fast. For example, a Small creature’s lifting and carrying limits are three-quarters of those of a Medium-size creature, and the dwarfed creature’s base speed is 20 ft.",
+		"advancement": "None",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Elongation",
+		"from": 34,
+		"to": 35,
+		"description": "The mutant’s tendons, muscles, and cartilage havedeveloped to allow for extreme stretching without tearing. This permits the mutant to extend her arms, legs, neck and torso to almost twice their normal length without ill effect.",
+		"benefitOrPenalty": "By extending her limbs, the mutant can add 5 feet to her reach. Optionally, the mutant can instead increase her base speed by 5 feet. (She cannot do both simultaneously, however). Elongating her body stresses the tendons and muscles and cannot be maintained indefinitely without harm. A mutant can elongate for 5 rounds per Constitution modifier per day (minimum 5 rounds). The mutant also enjoys a +4 bonus to Escape Artist checks. Elongating is a free action.",
+		"advancement": "The first advancement of this mutation doubles the number of rounds the mutant and maintain elongation. Each subsequent advancement adds 1 to the multiplier (x3, x4, etc.).",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Energy Immunity",
+		"from": 36,
+		"to": 37,
+		"description": "The mutant has developed immunity to a certain type of energy. The reason for this immunity depends on the mutant’s environment and development. A mutant with immunity to directed energy, for example, might have a reflective hide or chameleonic skin cells that react to flashes of intense energy by becoming tiny mirrors. An immunity to acid, as another example, might indicate the mutant’s skin is fibrous, like a plant, and resists flesh-eating acids.",
+		"benefitOrPenalty": "The mutant ignores 10 damage of the given energy type (acid, cold, electricity, energy weapons, fire, or sonic/concussion) each time the creature is subjected to such damage. For example, a mutant with fire immunity ignores the first 10 points of the damage by a fire attack. If energy weapons are chosen, it works against all weapons of type energy including lasers, masers, particle beams, and energy field generators.",
+		"advancement": "Each advancement of this mutation increases the resistance against the specific form by 5 to a maximum of 20.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Energy-Retaining Cell Structure",
+		"from": 38,
+		"to": 38,
+		"description": "The mutant possesses special energy-sensitive cells and internal electrolyte 'webbing' that acts to disperse harmful energy and store it in the body. The mutant can, with practice, learn to channel the energy before it dissipates (through short bursts of static energy), utilizing it as if he were a 'battery.' The mutant can absorb energy, storing it for a later date (to charge a weapon, for instance, by touching the power connections, or even to heal).",
+		"benefitOrPenalty": "When the mutant is struck by an energy attack, he must make a Fortitude save (DC 10 + the damage done). If the check is successful, the attack does no damage whatsoever, and the mutant absorbs this energy for later use. At any given time, a mutant can retain a number of charges equal to 1 plus his Constitution modifier (minimum of 1). A single discharge can power any other energy device for a short time. For example, a mutant’s energy discharge can power an energy weapon enough to give it one discharge of its own. The energy from a mutant's discharge can also be channeled to heal himself of 1d8 points of damage. Energy from electrical attacks and energy weapons can be diffused or stored by the mutant, but cold, acid, radiation, heat, and Sonic attacks will damage him as normal. If the mutant is already retaining his maximum amount of energy, he takes full damage from any energy attacks.",
+		"advancement": "Each advancement of this mutation increases the mutant’s Fortitude save bonus by 2.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Enhanced Respiration",
+		"from": 39,
+		"to": 40,
+		"description": "The mutant has an improved respiratory system, with enlarged and chambered lungs. The mutant normally takes a breath every three or four minutes, and can hold her breath for exceptionally long periods of time.",
+		"benefitOrPenalty": "The mutant can hold her breath for 1 extra minute per Constitution point before making drowning or suffocation checks. Because of her infrequent breathing cycle, she receives a +4 to Fortitude saves against airborne diseases, spores, and inhaled poisons.",
+		"advancement": "",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Epidermal Acid Enzymes",
+		"from": 41,
+		"to": 41,
+		"description": "The mutant can emit powerful dissolving juices or corrosive enzymes (such as those emitted by carnivorous plants and some species of toads and frogs) through pores in the skin. While these enzymes have some effect against organic material (like leather or wood), they are particularly destructive to metallic constructs. Stone items are generally unaffected.",
+		"benefitOrPenalty": "The melee touch attack of this mutant secretes a digestive acid that can dissolve metal almost instantaneously, and has some effect on organic material. Any successful hit deals 20 points of acid damage to metal objects (which might include an opponent’s weapon or armor). It inflicts only a single point of acid damage to the flesh of opponents. A weapon that strikes the mutant, after doing damage, will suffer acid damage unless the wielder makes a Reflex save (DC 16).",
+		"advancement": "Each advancement of this mutation increases the acid damage by 10 points for metal (to a maximum of 50) and one point for flesh (to a maximum of 3).",
+		"special": "Wood, cloth, leather and similar items are affected by the mutant’s acid, though at a slower rate. Even metal which can resist the enzyme damage cannot resist prolonged contact with the mutant’s skin. As a result, the mutant cannot wear armor or clothing. He can expect any weapons he uses to rapidly lose their effectiveness (within a few rounds). Inflicting acid damage is a free action for the mutant. It is not voluntary; the mutant damages everything he touches. Note: If an object’s hardness exceeds the amount of acid damage, then it is immune to the acid damage when being hit by or hitting the mutant. An object that loses all its hit points in a single round is immediately dissolved with a hiss and a wisp of smoke.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Expanded Optic Orbit",
+		"from": 42,
+		"to": 43,
+		"description": "The skull of the mutant has evolved to allow a special kind of eye movement. The orbit (socket) of each eye is much deeper than normal, and new eye muscles have developed along the interior walls of the cavity. These new muscles allow the mutant to instinctively pull his eyes back and into his skull when they are threatened. In effect, the eyes of the mutant retract back and down into the head, out of harm’s way.",
+		"benefitOrPenalty": "A mutant with this mutation looks normal most of the time, but when his eyes are threatened, they sink back, leaving hollow, empty holes. This mutation negates the effects of weapons, devices, or other effects that cause blindness.",
+		"advancement": "",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Extreme Resilience",
+		"from": 44,
+		"to": 45,
+		"description": "A mutant with this ability suffers much less from attacks made against her. This mutation can manifest itself in a number of ways. Often, the mutant is simply much larger than others of her species, making it more difficult to injure her (just as it’s harder to instantly kill an elephant than a human). Other mutants with Extreme Resilience might have an unusual configuration of internal organs. Many other possibilities exist as well.",
+		"benefitOrPenalty": "The mutant is immune to critical hit results 50% of the time.",
+		"advancement": "This mutation can be advanced once, making the mutant completely immune to critical hits.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Fragrance Development",
+		"from": 46,
+		"to": 47,
+		"description": "The mutant has the ability to produce a subtle yet hypnotic fragrance. This is another mutation that can take a number of forms, but the most common is mutated pheromones or hormones, which the mutant can emit at will. Another form this mutation can take is the production of spores, which, again, the mutant would generate at will. Other possibilities also exist.",
+		"benefitOrPenalty": "Once per day, the mutant can emit an invisible scent that forces up to 2d4 HD in creatures to make a Will save (DC 15) or be hypnotized. Duration is 2d4 rounds. Emitting the fragrance counts as an attack action. Range is 15 feet. While hypnotized, a creature’s Spot and Listen checks suffer a –4 penalty. Any potential threat allows the creature a second saving throw. Any obvious threat automatically breaks the hypnotism, as does shaking or slapping the creature. A hypnotized creature’s ally may shake it free of the hypnotism as a standard action. While the creature is hypnotized, the mutant can make a suggestion or request (provided the mutant can communicate with it). The suggestion must be brief and reasonable. An affected creature reacts as though it were two steps more friendly in attitude (see Diplomacy skill). Even once the effect ends, the creature retains its new attitude toward the mutant, but only with respect to that particular suggestion. A creature that fails its saving throw does not remember that the mutant hypnotized it.",
+		"advancement": "Each advancement of this mutation increases the HD of creatures affected by 1d4, the Will DC by 2, the duration by 1d4, and the range by 5 feet.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Gamma-Ray Visual Sensitivity",
+		"from": 48,
+		"to": 49,
+		"description": "This mutation allows the mutant to literally ‘see’ emissions of gamma rays within his field of vision.",
+		"benefitOrPenalty": "Such emissions appear as bright glowing patches or ‘auras,’ warning the mutant of a dangerous area, object, or creature (the GM is only required to describe the aura as dim for low radiation levels, bright for higher levels, or brilliant for extremely high levels). The range of the mutant’s detection is roughly equivalent to his natural sight.",
+		"advancement": "None",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Gigantism",
+		"from": 50,
+		"to": 50,
+		"description": "The mutant’s physical size has been altered, either by a pituitary defect or a change in the body’s genetic program during growth and development. While this serves to increase strength and size, often substantially, the mutant is nonetheless noticeably different from others of his species, often showing such traits as apelike arms, a lumbering gait, and distorted features.",
+		"benefitOrPenalty": "The mutant increases its size by one category and gains +1 to Strength and Constitution Penalty: Because of the increase in size, the mutant takes a –1 penalty to Dexterity.",
+		"advancement": "Each advancement of this mutation increases the mutant’s Strength and Constitution by +1. The mutant’s size category remains the same.",
+		"special": "This mutation can only be advanced at first level. The mutant cannot wear armor that was designed for creatures of a different size category. Note that there are several other modifiers that the mutant must take into account with any increase in size category, such as modifiers to attack and defense rolls, grappling attempts, hide checks, reach, and typical fighting space. All these modifiers and values can be found in the creature size table located in the Friend and Foes chapter of D20 Modern.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Haemotoxin Sting",
+		"from": 51,
+		"to": 52,
+		"description": "The outer cells of the mutant’s epidermis have developed into nematocysts, oval-shaped stinging cells that fire microscopic ‘darts’ into any living tissue that comes into contact with them. These screw-shaped darts penetrate deep into the skin of the victim and release hemotoxins into the bloodstream, causing immediate damage. This is a microscopic action that requires nothing more than contact between flesh and flesh. For example, the mutant could use this ability simply by grasping an opponent.",
+		"benefitOrPenalty": "Hemotoxins cause bruising and hemorrhaging and disrupt the ability to heal. Any creature coming into skin-to-skin contact with the mutant suffers 1d4 points of acid damage and cannot heal naturally for a further 1d4+4 days (Fortitude save DC 20 to resist). Using a sting is a free action but is not automatic. The mutant can choose not to sting when touching other creatures.",
+		"advancement": "Each advancement of this mutation increases the acid damage by 1d4, the duration by +22 days, and the Fortitude save DC by 2.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Hyper Olfactory",
+		"from": 53,
+		"to": 54,
+		"description": "The mutant has developed an advanced sense of smell similar to that of animals.",
+		"benefitOrPenalty": "This mutation lets a mutant detect approaching enemies, sniff out hidden foes, and track by sense of smell. The range of this heightened sense is generally 20 feet, but if the opponent is upwind, the range is doubled, and if the opponent is downwind, the range is halved. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at three times these ranges. The mutant can detect another creature’s presence but not its specific location. Noting the direction of the scent is a standard action. If the mutant moves within 5 feet of the scent’s source, she can pinpoint that source. The mutant can follow tracks by smell, making a Wisdom check to find or follow a track. The typical DC for a fresh trail is 10. The DC increases or decreases depending on how strong the quarry’s odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the Track feat, although mutants tracking by scent ignore the effects of surface conditions and poor visibility. Mutants with this ability can identify familiar odors just as humans do familiar sights.",
+		"advancement": "Each advancement of this mutation increases the mutants scent range by 10 feet.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Increased Body Density",
+		"from": 55,
+		"to": 56,
+		"description": "This mutation has modified the mutant’s cellular spacing and reinforced the structure of his cells. This has resulted in a dramatic increase in the mutant’s body density and resistance to kinetic shocks.",
+		"benefitOrPenalty": "The mutant gains damage reduction 5/- to bludgeoning, concussion, and slashing attacks.",
+		"advancement": "Each advancement of this mutation increases the damage reduction by 5 to a maximum of 15.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Increased Movement",
+		"from": 57,
+		"to": 58,
+		"description": "The mutant has developed the ability to move incredibly fast. Possible reasons for this ability include enhanced adrenal gland function and development of a higher tensile strength in the muscles and tendons of the lower torso and legs. Other possibilities also exist.",
+		"benefitOrPenalty": "The mutant’s speed is increased by 10 feet.",
+		"advancement": "Each advancement of this mutation increases the mutant’s speed by 10 feet.",
+		"special": "This mutation can stack with other feats or abilities that increase movement.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Independent Cerebral Control",
+		"from": 59,
+		"to": 60,
+		"description": "The forward motor cortex of the mutant’s brain has developed to such a point that each hemisphere can control a limb independently, without dividing the mutant’s attention. This results in skilled manipulation of both hands simultaneously, with equal proficiency.",
+		"benefitOrPenalty": "A mutant with this mutation operates as if she possessed the Two Weapon Fighting feat.",
+		"advancement": "None",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Interior Moisture Reservoir",
+		"from": 61,
+		"to": 62,
+		"description": "Like a camel, the mutant has an internal reservoir (most likely located in the buttock and stomach area), which collects residual moisture in the body and provides the mutant with an emergency source in circumstances where drinking water is unavailable.",
+		"benefitOrPenalty": "The mutant can survive for a full week without food or water.",
+		"advancement": "Each advancement of this mutation allows the mutant to survive ad additional week without food and water.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Light Distortion Field",
+		"from": 63,
+		"to": 64,
+		"description": "The mutant is capable of emitting a powerful ‘distortion field,’ which alters light patterns surrounding him and makes him literally invisible. The field is large enough to envelop his entire body, as well as any clothes and surface gear he might be wearing. The biology and physics surrounding this phenomenon are not well understood.",
+		"benefitOrPenalty": "The mutant can become invisible for up to 4 rounds per Constitution modifier per day (minimum 4 rounds). Creating the distortion field counts as a move action. The mutant becomes visible after attacking.",
+		"advancement": "Each advancement of this mutation increases the duration of the effect by 1 round per Constitution modifier.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Multi-Faceted Eyes",
+		"from": 65,
+		"to": 65,
+		"description": "The mutant has developed multi-faceted, insect-like eyes, which allow her to discern minute areas of space and to notice even the most subtle movements.",
+		"benefitOrPenalty": "The mutant receives a +2 bonus to Spot and Search checks, and because she can notice flaws another worker would miss, she also gains a +2 bonus to Repair and Craft (Mechanics) checks.",
+		"advancement": "Each advancement of this mutation increases the bonuses by +2 to a maximum of +6.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Multiple Stomachs",
+		"from": 66,
+		"to": 67,
+		"description": "The mutant has developed a series of interconnecting stomachs (similar to those of a cow), which allow him to break down and digest nearly any substance, be it animal, vegetable, or mineral.",
+		"benefitOrPenalty": "The mutant can subsist on nearly anything that is not inherently poisonous.",
+		"advancement": "None",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Multiple Eyes",
+		"from": 68,
+		"to": 69,
+		"description": "The mutant has developed additional eyes, which might be located anywhere on her body.",
+		"benefitOrPenalty": "The mutant cannot be flanked and gains +2 Spot checks.",
+		"advancement": "Each advancement of this mutation increases the bonus to Spot checks by +3.",
+		"special": "The mutation can only be advanced at first level.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Neurotoxin Sting",
+		"from": 70,
+		"to": 71,
+		"description": "This mutation works like Hemotoxin Sting, above, with the exception that it produces neurotoxins instead of hemotoxins.",
+		"benefitOrPenalty": "Neurotoxins act to paralyze the body and respiratory system. Any creature coming into contact with the mutant suffers 1d4 points of acid damage and must make Fortitude save (DC 15) or suffer a temporary loss of 2d6 Dexterity. The ability score loss lasts for 1d4 hours. Using a neurotoxin sting is a free action.",
+		"advancement": "Each advancement of this mutation increases the acid damage by 1d4, the duration by 1d4 hours, and the Fortitude save DC by 2.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Neural Mutation - Precognition",
+		"from": 72,
+		"to": 72,
+		"description": "The mutant has a sixth sense. He can sense danger and has an extraordinary ability to predict the future. Whether this neural ability actually allows the mutant to see the future or is an uncanny ability to predict it, is left for the player to decide. Regardless of that fact, this mutant possesses a heightened awareness that separates it from other creatures.",
+		"benefitOrPenalty": "The mutant may make a Will Save (DC 20) any time he is surprised. If he makes the save, he is not surprised. This ability may be used at will. For Precognition-based neural feats that have limited use, the mutant can manifest these abilities 2 times per day plus this mutant’s Wisdom modifier.",
+		"advancement": "Each advancement of this mutation lowers the Will DC by 2. In addition, the mutant can manifest 2 additional Precognition-based neural feats per day and the DC to resist any Precognition neural feats is increased by +1.",
+		"special": "Note that each neural mutation has its own uses per day.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Neural Mutation - Telekinesis",
+		"from": 73,
+		"to": 73,
+		"description": "The mutant can move small objects with his mind, though it requires a great effort.",
+		"benefitOrPenalty": "The mutant may move objects weighing 10 lbs. per Constitution modifier (minimum 10). The mutant can move these objects at a speed of 10 feet per round. Using this ability is a move action and may be used at will. Unwilling targets (or objects they hold) cannot be moved with Telekinesis, nor can the mutant move himself. For Telekinesis-based neural feats that have limited use, the mutant can manifest these abilities 2 times per day plus this mutant’s Constitution modifier. Unless otherwise specified, all Telekinesis-based abilities have a range of 50 feet plus 10 feet per Constitution modifier (minimum 50).",
+		"advancement": "Each advancement of this mutation increases the weight the mutant can move by 10 lbs. times per Constitution modifier. In addition, the mutant can manifest 2 additional Telekinesis-based neural feats per day and the DC to resist any Telekinesis neural feats is increases by +1.",
+		"special": "Note that each neural mutation has its own uses per day.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Neural Mutation - Telepathy",
+		"from": 74,
+		"to": 74,
+		"description": "The mutant can read the thoughts and emotions of those around him.",
+		"benefitOrPenalty": "The mutant character can gain an insight into the feelings of someone he is interacting with, gaining a +2 circumstance bonus to Bluff, Diplomacy, Gather Information, Intimidate, and Sense Motive checks. Using this ability is a free action and may be used at will. For Telepathy-based neural feats that have limited use, the mutant can manifest these abilities 2 times per day plus this mutant’s Charisma modifier. Unless otherwise specified, all Telepathy abilities have a range of 100 feet plus 10 feet per Charisma modifier (minimum 100).",
+		"advancement": "Each advancement of this mutation increases the circumstance bonus by +1. In addition, the mutant can manifest 2 additional Telepathy-based neural feats per day and the DC to resist any Telepathy neural feats is increases by +1.",
+		"special": "Note that each neural mutation has its own uses per day.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Optic Emissions",
+		"from": 75,
+		"to": 75,
+		"description": "The mutant gains the ability to emit lazing atoms from her eyes. These ‘eyebeams’ are streams of charged ions that are cycled in the optic center. The beams act much like lasers, searing and burning flesh much as thermonuclear radiation can cause a flash burn. As eyebeams are mostly energy, they can also be used to deflect other forms of light-based attack.",
+		"benefitOrPenalty": "The mutant gains an optic emissions attack with a base range of 100 feet that inflicts 1d4 + 1 point of damage per character level (up to a maximum of +10) points of damage. In addition, once per round the mutant can deflect one light-based attack (such as another mutant’s eye beams or even laser fire, but not other forms of energy attack) with a successful Reflex save (DC 20).",
+		"advancement": "Each advancement of this mutation increases the damage by 1d4.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Protective Dermal Development",
+		"from": 76,
+		"to": 77,
+		"description": "The skin cells of the mutant’s epidermis have thickened and hardened, turning into a tough ‘armor.’ This mutation can take the form of a thick leathery dermal overgrowth (like ‘jowls’ or an extra layer of callous tissue, for instance) or hardened ‘scales,’ like a lizard’s.",
+		"benefitOrPenalty": "The mutant has a natural armor bonus of +4.",
+		"advancement": "Each advancement of this mutation increases the natural armor bonus by +2.",
+		"special": "The mutant cannot wear armor unless it is specifically designed to fit her.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Pyrokinetic Pulse Generation",
+		"from": 78,
+		"to": 79,
+		"description": "The mutant is able to excite the air molecules surrounding him to such an extent that he generates a wave of super-heated air that blasts out from him in a direction of his choice.",
+		"benefitOrPenalty": "The mutant can generate a 5-foot-wide heat blast that reaches up to 10 feet and inflicts 1d6 points of heat damage for every 2 character levels. All creatures in the area may make a Reflex save (DC 15) for half damage. Generating the heat blast is a full-round action. The mutant can use this mutation a number of times per day equal to 3 + the mutants Constitution modifier (minimum 3).",
+		"advancement": "Each advancement of this mutation increases the range by 10 ft and the Reflex save DC by 1.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Radiation Immunity",
+		"from": 80,
+		"to": 81,
+		"description": "Having adapted to life in a harsh radiated environment, the mutant is immune to radiation (as well as heat generated by radiation).",
+		"benefitOrPenalty": "The mutant is immune to moderate radiation exposure (see Radiation).",
+		"advancement": "The first advancement of this mutation makes the character immune to high radiation exposure. The second advancement makes the mutant immune to severe radiation (thus completely immune).",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Regenerative Capability",
+		"from": 82,
+		"to": 83,
+		"description": "This mutation allows the mutant to recuperate from injury at a staggering rate, provided she gets proper rest and food. The mutant may recover from critical wounds in mere days and even, according to some reports, re-grow severed limbs.",
+		"benefitOrPenalty": "The mutant is considered to be double his actual level for the purposes of natural healing. If she should lose a limb and survive, the lost body part will regenerate over a period of 1d4+2 weeks.",
+		"advancement": "The first advancement of this mutation triples the mutant’s rate of natural healing. Each subsequent advancement increases the multiplier by 1 (x4, x5, etc.). Each advancement also decreases the time to regenerate limbs by 1 week (minimum 1 week).",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Respiratory Membrane",
+		"from": 84,
+		"to": 85,
+		"description": "The mutant has developed a set of gills and the associated membranes within the respiratory tract. This allows him to breathe underwater by extracting oxygen molecules from the water just as a fish does.",
+		"benefitOrPenalty": "The mutant is a true amphibian, able to breathe underwater as well as he does in air. It is assumed that a mutant with this mutation has spent significant time in water, so he gets the Swim skill as a class skill.",
+		"advancement": "None",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Sensitive Sight",
+		"from": 86,
+		"to": 87,
+		"description": "The mutant’s eyes and optic nerves have increased sensitivity and allow him to see well in low light.",
+		"benefitOrPenalty": "A mutant with this mutation has low-light vision out to 60 feet.",
+		"advancement": "This mutation can be advanced once, giving the mutant dark vision out to 60 feet.",
+		"special": "The mutation can only be advanced at first level.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Serrated Dental Development",
+		"from": 88,
+		"to": 89,
+		"description": "The mutant has developed mandibles, beak, Saber teeth, or other rigid mouthparts. The actual nature of the mutation can vary tremendously depending upon the player’s choice. The mouthparts can be used to make a bite attack.",
+		"benefitOrPenalty": "The mutant gains a natural weapon that can be used to make a bite attack. The bite inflicts 1d6 damage, and has a threat range of 19-20 for a critical hit.",
+		"advancement": "Each advancement of this mutation increases the damage dice in of the attack in the following progression: 1d8, 1d10, and 1d12.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Shriek",
+		"from": 90,
+		"to": 91,
+		"description": "The mutant’s vocal cords can produce sounds both above and below the normal human auditory range. This mutation also allows the mutant to produce a multi-layered, multi-timbre shriek, whose Sonic vibrations affect everyone in the mutant’s immediate vicinity.",
+		"benefitOrPenalty": "Once per day, the mutant can let out a horrible shriek that affects everyone within a 10-foot radius of him. Targets in the area of effect must make a Fortitude save (DC 15) or take 1d4 points of Sonic damage and be deafened for 1d6+4 rounds. Those who successfully save are unaffected.",
+		"advancement": "Each advancement of this mutation increases the radius of the effect by 5 feet, damage by 1d4, duration of deafness by 1d4 rounds, and the Fortitude save DC by 2.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Simian Deformity",
+		"from": 92,
+		"to": 93,
+		"description": "This mutation gives the mutant a set of physical features that resemble those of the great apes (such as gorilla’s and orangutans). These features include stunted legs, a hunched and slope-shouldered posture, and elongated arms that cause the knuckles to drag on the ground. The mutant’s overall speed is reduced unless his arms are used to assist in locomotion.",
+		"benefitOrPenalty": "If the mutant uses both his arms and legs to move, his speed is increased by 1/3 (40 feet for humans). His elongated arms extend his reach by 5 feet. The mutant also gains a climb bonus of +4.",
+		"advancement": "If the mutant does not use his arms to aid in locomotion, his shortened legs reduced his base speed to 2/3 normal (20 feet for humans). If he uses his arms to assist in movement he cannot wield a weapon or carry items in his hands.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Skeletal Fortification",
+		"from": 94,
+		"to": 95,
+		"description": "The calcium deposits in the mutant’s skeletal system have been replaced with other minerals. This mineral substitution strengthens and fortifies the bones.",
+		"benefitOrPenalty": "A mutant with this mutation does 1d4 bludgeoning damage with his fists and gains damage reduction 1/- to bludgeoning attacks.",
+		"advancement": "Each advancement of this mutation increases the damage dice (1d6, 1d8, 1d10) and damage reduction by 1.",
+		"special": "The mutant is still considered unarmed with unarmed strikes. This ability stacks with the Brawl (and Improved Brawl) feat(s). A character with Skeletal Fortification and Brawl (or Improved Brawl) increases his base damage by one increment, much as if he had advanced the mutation. A mutant with Skeletal Fortification and Combat Martial Arts may choose to inflict lethal damage with his unarmed strikes, and is considered armed for the purpose of determining attacks of opportunity (but does not increase his base damage). The maximum base damage the mutant can inflict with his fists is 1d12.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Spontaneous Electric Charge",
+		"from": 96,
+		"to": 96,
+		"description": "The mutant’s nervous system generates a surplus of ionizing electrical energy, which can be discharged from his body in the form of an electrical jolt. The mutant need only touch his target or a conductive material. The biology and physics behind this phenomenon are not well understood.",
+		"benefitOrPenalty": "The mutant can emit an electrical pulse as a touch attack, inflicting 2d6+1 points of electricity damage per character level (up to a maximum of +10). For example, a 5th level character would inflict 2d6+5 damage with an electrical pulse. Generating the charge is considered an attack action. The mutant can use this mutation a number of times per day equal to 2+ the mutant’s Constitution modifier (minimum 2).",
+		"advancement": "Each advancement of this mutation increases the damage by 1d6 and the number of uses per day by 2.",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Stench",
+		"from": 97,
+		"to": 98,
+		"description": "The mutant can secrete an oily, musk-like chemical whose smell is unpleasant to most animal life.",
+		"benefitOrPenalty": "All living creatures that possess a sense of smell within 10 feet of the mutant must succeed a Fortitude save (DC 15) or take a –2 morale penalty on attack rolls, weapon damage rolls, ability checks, skill checks, and saving throws for 10 rounds. Creatures affected by this stench cannot be affected again until the current effect expires. Attackers with an Intelligence score of 2 or less flee if they fail their save.",
+		"advancement": "Each advancement of this mutation increases the Fortitude save DC by 2 and the range by 5 feet.",
+		"special": "Mutants with this ability are easier to detect.",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Superior Kidney Development",
+		"from": 99,
+		"to": 100,
+		"description": "The mutant’s kidneys have developed into an extremely effective filtration system, which grants the mutant total immunity to ingested (not inhaled) poisons and toxins (including most nonacidic chemicals).",
+		"benefitOrPenalty": "The mutant becomes immune to ingested poisons of all types, and her urine becomes a poisonous byproduct of roughly equal strength and effect to the toxin imbibed. If the mutant decides to harvest her urine and use it as an ingested poison, the DC for saving throws against the urine decreases by 2 from the DC of the original poison.",
+		"advancement": "None",
+		"special": "None",
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Burst of Speed",
+		"from": 101,
+		"to": 102,
+		"description": "You move tremendously fast for short periods of time.",
+		"benefitOrPenalty": "You can double your Movement for 1d10 rounds plus a number of rounds equal to your Constitution modifier. After engaging in this burst of speed you are fatigued until you rest for one hour. After resting you may use this ability again.",
+		"advancement": "Advancing this mutation increases the movement multiplier (x3 Movement, x4 Movement etc.)",
+		"special": "The Endurance feat increases the duration of the burst of speed mutation for 4 rounds. Mutants with the Endurance feat only need to rest for 30 minutes between bursts of speed.",
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Fur",
+		"from": 103,
+		"to": 104,
+		"description": "You are covered in a rich coat of fur that provides some protection against attack and excellent ability to withstand cold weather. In hot weather, this mutation is miserable.",
+		"benefitOrPenalty": "You gain a +1 natural armor bonus. You are considered 10 degrees colder than the surrounding environment for purposes of saving throws to avoid damage. Normally nonlethal is suffered each hour at 40 degrees, each hour at 0 degrees and lethal damage is suffered every minute at -20 degrees. The mutant with this mutation would only suffer these effects at 30 degrees, -10 degrees and -30 degrees. If there is the potential for damage the mutant gains a +4 bonus on Fortitude saving throws to avoid damage and needs to save less often (double the amount of time between saves).  This mutation makes life in hot climates more difficult. The character suffers a -2 penalty on saving throws to avoid damage from hot weather. The character also sheds, granting a +2 bonus on any attempt to track him.",
+		"advancement": "Each time this mutation is advanced the mutant’s 'effective temperature' is increased by an additional 10 degrees (so damage would only be suffered at 20 degrees, -20 degrees and -40 degrees). While this is the only effect of advancement, this could allow the mutant to live comfortably in an environment that would be lethal to another character (think polar bears calmly swimming in arctic waters when a human would be dead in minutes).",
+		"special": "None",
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Telescopic Vision",
+		"from": 105,
+		"to": 106,
+		"description": "You can see much greater distances than normal.",
+		"benefitOrPenalty": "You gain a +4 bonus on Spot checks. You suffer a -1 penalty to Spot checks every 20 feet, rather than the usual -1 per 10 feet. Any ranged weapon you are using has its effective range increment increased by 10 feet. This mutation has no effect on any form of sight  beyond the normal human range (the range of the Gamma-Ray Visual Sensitivity and Sensitive Sight mutations is unaffected).",
+		"advancement": "Every time this mutation is advanced the character adds 20 feet to his Spot skill’s range increment (so the penalty to Spot checks increases to 40 feet, then 60 feet and so on). The effective range increment of ranged weapons is increased by 10 feet each time this mutation is advanced.",
+		"special": "None",
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Heightened Mental Attribute",
+		"from": 106,
+		"to": 109,
+		"description": "One of the mutant’s mental attributes is improved.",
+		"benefitOrPenalty": "The mutant’s chosen attribute increases by 1. Randomly select an attribute by rolling 1d6 (Intelligence 1-2, Wisdom 3-4, Charisma 5-6).",
+		"advancement": "None",
+		"special": "None",
+		"source": "Tormentor And SpiderTrag's Netbook"
+	},
+	{
+		"name": "Heightened Physical Attribute",
+		"from": 110,
+		"to": 113,
+		"description": "One of the mutant’s physical attributes is improved.",
+		"benefitOrPenalty": "The mutant’s chosen attribute increases by 1. Randomly select an attribute by rolling 1d6 (Strength 1-2, Dexterity 3-4, Constitution 5-6).",
+		"advancement": "None",
+		"special": "None",
+		"source": "Tormentor And SpiderTrag's Netbook"
+	},
+	{
+		"name": "Electromagnetic Pules Generation",
+		"from": 114,
+		"to": 114,
+		"description": "The mutant can generate a tight pulse of electromagnetic energy which can be discharged from his hands or eyes. This attack damages electronic, cybernetic, and robotic components, however, it does very little damage to living targets.",
+		"benefitOrPenalty": "The mutant can emit a directed electromagnetic pulse as a ranged touch attack (range of 20 feet), inflicting 2d6+1 points of energy damage per character level (up to a maximum of +10). For example, a 5th level character would inflict 2d6+5 damage with an electromagnetic pulse. The pulse deals normal damage against robots, cyborgs, and androids (unless the android in question has specific countermeasures, in which case the pulse has no effect). If the damage equals or exceeds the target’s Hit Dice, the target must make a Reflex save (equal to the damage dealt). If the Reflex save is successful, the target is dazed for 1 round. If the target fails the save, it shuts down until repaired. Generating the pulse and firing it at a target requires a regular attack action. The mutant can use this mutation a number of times per day equal to 2+ the mutant’s Constitution modifier (minimum 2).",
+		"advancement": "Each advancement of this mutation increases the damage by 1d6, the number of uses per day by 1, and the range by 10 feet.",
+		"special": "The pulse does minimal damage to living creatures at close range. The pulse will only inflict a total of 1d4 points of damage to living creatures within the first 20 feet. Living targets outside the 20 foot range are completely unaffected. These limitations are absolute...they apply even after this mutation has been advanced one or more times.",
+		"source": "Tormentor And SpiderTrag's Netbook"
+	},
+	{
+		"name": "Parrot",
+		"from": 115,
+		"to": 116,
+		"description": "The mutant can imitate sounds and voices.",
+		"benefitOrPenalty": "The mutant has a perfect short-term aural memory and has advanced vocal mechanisms that can perfectly duplicate sounds and voices he has heard in the last 12 hours. His sound imitation does not allow him to duplicate damaging sonic attacks, however, he can perfectly imitate even very loud noises such as gunshots, grenade blasts, etc. This ability is essentially like replaying a recording of the exact noise he heard. His vocal imitation ability allows him to perfectly mimic the vocal patterns of a human or the noises of an animal so he can carry on conversations believably in his duplicated voice, not just replay specific noises.",
+		"advancement": "Each advancement of this mutation extends the time period for the mutant’s aural memory by another 12 hours.",
+		"special": "This mutation does not confer any ability to hear sounds outside his normal auditory range, and the mutant must be able to hear what he will try to parrot.",
+		"source": "Tormentor And SpiderTrag's Netbook"
+	},
+	{
+		"name": "Mimicry",
+		"from": 117,
+		"to": 117,
+		"description": "The mutant can transform himself into the shape of another humanoid or animal that he touches.",
+		"benefitOrPenalty": "The mutant cannot just shapechange into any form he desires, he can merely copy the physical form of another creature he touches. He can only assume the form of creatures his own size, or one size category smaller. In order to begin the transformation, the mutant only needs to touch the original subject (or succeed at a touch attack if the subject is unwilling to be duplicated). The transformation process takes 10 full rounds to complete. During this transformation, the mutant is considered to be Dazed. This means he can take no further actions, but still has his normal Defense. The mutant may use this ability once per Constitution modifier (minimum of 1) per day. The mutant can remain in his transformed shape for one hour per Constitution modifier (minimum 1) each time he uses this ability.",
+		"advancement": "Each advancement of this mutation allows the mutant to use this power one additional time per day, and allows the mutant to remain in his transformed state 2 additional hours per use. For example, consider a mutant with a +3 Constitution modifier and one advancement of Mimicry. He can use this ability 4 times per day and each time he uses it he can remain transformed for 5 hours.",
+		"special": "A transformed mutant gains the Strength, Dexterity, and Constitution scores of the original subject but retains his own Intelligence, Wisdom, and Charisma scores. He also gains all physical mutations and natural attacks of the original subject while losing all of his own. He does not gain any of the subject’s neural mutations but does retain his own.",
+		"source": "Tormentor And SpiderTrag's Netbook"
+	},
+	{
+		"name": "Photosynthesis",
+		"from": 118,
+		"to": 119,
+		"description": "The mutant’s skin structure has been altered to absorb sunlight and produce nourishment.",
+		"benefitOrPenalty": " If the mutant can spend at least 3 hours a day in direct, bright sunlight (or 6 hours in dim light) then he does not require any food that day. The mutant must adhere to normal requirements for water. The mutant is not required to limit any activities while in sunlight because the photosynthesis will occur even while he performs other actions (moving, fighting, etc). Indoor lights specifically manufactured for agriculture (hydroponics lamps, etc) can be substituted for sunlight. The mutant’s skin pigmentation becomes either green or black.",
+		"advancement": "None",
+		"special": "If the mutant can suspend all activities and spend a full day of rest, with at least 6 hours of that rest being in direct, bright sunlight, he will heal at triple his normal rate for that day. The mutant is more susceptible to damage from light-based attacks (lasers, masers, optic emissions mutation, etc). He takes 1.5 times (rounded up) the normal damage from such attacks because of his light-sensitive skin. If the mutant has enough water and sunlight, he can survive in an airtight enclosure for a reasonable period of time since he can exchange Oxygen and Carbon Dioxide with himself. Characters with Photosynthesis may not also have the Nocturnal or Protective Dermal Development mutations. They also cannot apply the Bizarre Pigmentation defect to their skin color.",
+		"source": "Tormentor And SpiderTrag's Netbook"
+	},
+	{
+		"name": "Pincers",
+		"from": 120,
+		"to": 122,
+		"description": "Rather than hands, you have natural weapons in the form of pincers like a scorpion or crab.",
+		"benefitOrPenalty": "The mutant’s pincers are natural weapons that allow him to make a bludgeoning melee attack for 1d8 points of damage. The mutant also gains a +2 bonus on opposed Grapple checks. Unfortunately, this also means the mutant is poorly suited for manipulating tools or weapons. He suffers a -6 penalty to attack rolls with all non-natural melee weapons. He is completely unable to use non-natural ranged weapons. The mutant suffers a -10 penalty on the following skill checks: Craft (all), Demolitions, Disable Device, Forgery, Repair, Sleight of Hand, and Treat Injury.",
+		"advancement": "This mutation may be advanced twice. The first advancement increases the pincer attack damage to 1d10 and the opposed grapple bonus to +4. The second advancement increases the pincer attack damage to 2d6 and the opposed grapple bonus to +6.",
+		"special": "These penalties apply to the pincer appendages only. If a mutant gains more humanlike hands (via the Additional Limb Development mutation, for example), the above penalties would not apply to any new normal hands. The mutant cannot have the Claws mutation. The mutant cannot have the following defects: Paws, Brachydactyly.",
+		"source": "Tormentor And SpiderTrag's Netbook"
+	},
+	{
+		"name": "Prehensile Tail",
+		"from": 123,
+		"to": 125,
+		"description": "The mutant grows a tail capable of grasping objects.",
+		"benefitOrPenalty": "The mutant grows a prehensile tail that grants him a +2 bonus to Balance and Climb checks. He can also hang from his tail by wrapping it around a suitable object. The tail is not strong enough to be considered a natural weapon, nor does it grant the mutant any kind of extra reach. His motor skill with the tail is not fine enough to manipulate tools, objects, or weapons.",
+		"advancement": "This mutation can be advanced once. The tail is a little stronger and is now considered a natural weapon capable of delivering a slam attack for 1d6 bludgeoning damage. The mutant may also use his tail to augment a Trip Attack and thus gain a +2 bonus for that attack. Finally, the mutant may use his tail to augment Grapple attempts and receives a +1 bonus on opposed Grapple checks.",
+		"special": "This mutation can only be advanced at first level.",
+		"source": "Tormentor And SpiderTrag's Netbook"
+	},
+	{
+		"name": "Transfusive Healing",
+		"from": 126,
+		"to": 126,
+		"description": "The mutant can choose to expend some of his own life force to heal another living creature.",
+		"benefitOrPenalty": "The mutant can heal other living creatures by touching them. He cannot heal himself. He simply needs to touch the target creature. The transfusion is a move action. The mutant heals 1d6 + his own Constitution modifier (minimum 1) hit points in the target creature. He cannot raise the target creature’s hit point total above its maximum total hit points. The other side of the equation is that the mutant takes 1d4 points of damage when he heals the target creature. This damage heals normally.",
+		"advancement": "This mutation may be advanced one time. The healing dice increases to 1d12 and the personal damage dice increases to 1d8.",
+		"special": "There is no theoretical limit to the number of times a mutant can use this ability per day. As long as he has positive hit points available and is willing to sacrifice them to help others. However, the mutant can only use transfusive healing on a specific target creature once per day.",
+		"source": "Tormentor And SpiderTrag's Netbook"
+	},
+	{
+		"name": "Web Slinging",
+		"from": 127,
+		"to": 128,
+		"description": "The mutant has developed sub dermal glands in one hand that allow him to instantly spin and cast sticky spider-like webs as if they were nets.",
+		"benefitOrPenalty": "The mutant can make a ranged touch attack up to 10 feet away using his ranged attack bonus. If struck, the opponent becomes entangled (-2 on attack rolls and -4 penalty to Dexterity). Slinging a web counts as an attack action. This attack is effective against opponents of up to Large size. An entangled opponent can escape with a DC 18 Escape Artist check (a full-round action). An entangled opponent may attempt to burst the web with a DC 20 Strength check (also a full round action). The web has 8 hit points, hardness 0, and takes double damage from fire. The mutant may use this ability a number of times per day equal to his Constitution modifier +1 (minimum 1).",
+		"advancement": "This mutation may be advanced up to 3 times. Each advancement of this mutation increases the following: range by 10 feet to a maximum of 40, Escape Artist check DC by 2 to a maximum of 24, burst Strength DC by 2 to a maximum of 26, web hit points by 4 to a maximum of 20, uses per day by 1 to a maximum of Constitution modifier +4 (minimum 1).",
+		"special": "None",
+		"source": "Tormentor And SpiderTrag's Netbook"
+	}]
+}

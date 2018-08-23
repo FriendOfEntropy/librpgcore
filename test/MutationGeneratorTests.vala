@@ -39,12 +39,12 @@ public class MutationGeneratorTests : AbstractTestCase {
     add_test ("Get Beneficial Mutation", test_get_beneficial_mutation) ;
     add_test ("Get Beneficial Mutation", test_get_beneficial_mutation) ;
     add_test ("Get Beneficial Mutation", test_get_beneficial_mutation) ;
-    add_test ("Get 1 Points of Mutations", test_get_mutations_cost_constrained_1) ;
-    add_test ("Get 2 Points of Mutations", test_get_mutations_cost_constrained_2) ;
-    add_test ("Get 3 Points of Mutations", test_get_mutations_cost_constrained_3) ;
-    add_test ("Get 4 Points of Mutations", test_get_mutations_cost_constrained_4) ;
-    add_test ("Get 5 Points of Mutations", test_get_mutations_cost_constrained_5) ;
-    add_test ("Get 6 Points of Mutations", test_get_mutations_cost_constrained_6) ;    
+    add_test ("Get 1 Mutations", test_get_random_mutations_1) ;
+    add_test ("Get 2 Mutations", test_get_random_mutations_2) ;
+    add_test ("Get 3 Mutations", test_get_random_mutations_3) ;
+    add_test ("Get 4 Mutations", test_get_random_mutations_4) ;
+    add_test ("Get 5 Mutations", test_get_random_mutations_5) ;
+    add_test ("Get 6 Mutations", test_get_random_mutations_6) ;
     //add_test ("This line to force display ", test_fail_to_display) ;    
   }
 
@@ -62,88 +62,76 @@ public class MutationGeneratorTests : AbstractTestCase {
     assert (rolledMutation != null);
   }
 
-  public virtual void test_get_mutations_cost_constrained_1() {
-    int allowedPoints = 1;
-    HashMap<string, Mutation> list = m.get_random_mutations_cost_constrained(allowedPoints);
+  public virtual void test_get_random_mutations_1() {
+    int numberOfMutations = 1;
+    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
     StringBuilder builder = new StringBuilder();
-    int totalPoints = 0;
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;
       builder.append(mut.name + ", ");
-      totalPoints += mut.mp;
     }
     stdout.printf (builder.str) ;
-    assert (totalPoints == allowedPoints);
+    assert (list.size == numberOfMutations);
   }
 
-  public virtual void test_get_mutations_cost_constrained_2() {
-    int allowedPoints = 2;
-    HashMap<string, Mutation> list = m.get_random_mutations_cost_constrained(allowedPoints);
+  public virtual void test_get_random_mutations_2() {
+    int numberOfMutations = 2;
+    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
     StringBuilder builder = new StringBuilder();
-    int totalPoints = 0;
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;
       builder.append(mut.name + ", ");
-      totalPoints += mut.mp;
     }
     stdout.printf (builder.str) ;
-    assert (totalPoints == allowedPoints);
+    assert (list.size == numberOfMutations);
   }
 
-  public virtual void test_get_mutations_cost_constrained_3() {
-    int allowedPoints = 3;
-    HashMap<string, Mutation> list = m.get_random_mutations_cost_constrained(allowedPoints);
+  public virtual void test_get_random_mutations_3() {
+    int numberOfMutations = 3;
+    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
     StringBuilder builder = new StringBuilder();
-    int totalPoints = 0;
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;
       builder.append(mut.name + ", ");
-      totalPoints += mut.mp;
     }
     stdout.printf (builder.str) ;
-    assert (totalPoints == allowedPoints);
+    assert (list.size == numberOfMutations);
   }
 
-  public virtual void test_get_mutations_cost_constrained_4() {
-    int allowedPoints = 4;
-    HashMap<string, Mutation> list = m.get_random_mutations_cost_constrained(allowedPoints);
+  public virtual void test_get_random_mutations_4() {
+    int numberOfMutations = 4;
+    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
     StringBuilder builder = new StringBuilder();
-    int totalPoints = 0;
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;
       builder.append(mut.name + ", ");
-      totalPoints += mut.mp;
     }
     stdout.printf (builder.str) ;
-    assert (totalPoints == allowedPoints);
+    assert (list.size == numberOfMutations);
   }
 
-  public virtual void test_get_mutations_cost_constrained_5() {
-    int allowedPoints = 5;
-    HashMap<string, Mutation> list = m.get_random_mutations_cost_constrained(allowedPoints);
+  public virtual void test_get_random_mutations_5() {
+    int numberOfMutations = 5;
+    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
     StringBuilder builder = new StringBuilder();
-    int totalPoints = 0;
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;
       builder.append(mut.name + ", ");
-      totalPoints += mut.mp;
     }
     stdout.printf (builder.str) ;
-    assert (totalPoints == allowedPoints);
+    assert (list.size == numberOfMutations);
   }
 
-  public virtual void test_get_mutations_cost_constrained_6() {
-    int allowedPoints = 6;
-    HashMap<string, Mutation> list = m.get_random_mutations_cost_constrained(allowedPoints);
+  public virtual void test_get_random_mutations_6() {
+    int numberOfMutations = 6;
+    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
     StringBuilder builder = new StringBuilder();
-    int totalPoints = 0;
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;
       builder.append(mut.name + ", ");
-      totalPoints += mut.mp;
     }
     stdout.printf (builder.str) ;
-    assert (totalPoints == allowedPoints);
+    assert (list.size == numberOfMutations);
   }
 
   public virtual void test_fail_to_display() {

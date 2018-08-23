@@ -36,24 +36,31 @@ namespace RPGCore {
 
 
 
-    public HashMap<string, Mutation> get_random_mutations_cost_constrained(int allowedCost) {
-      HashMap<string, Mutation> rolledMutations = new HashMap<string, Mutation>();
-      int totalCost = 0;
-      do { 
-        Mutation m = get_beneficialmutation();
-        if (!rolledMutations.has_key(m.name)) {
-          if ((totalCost + m.mp) <= allowedCost) {
-            rolledMutations.set (m.name, m);
-            totalCost += m.mp;
-          }
-        }
-      } 
-      while (totalCost < allowedCost); 
-      return rolledMutations;
-    }
+    //  public HashMap<string, Mutation> get_random_mutations_cost_constrained(int allowedCost) {
+    //    HashMap<string, Mutation> rolledMutations = new HashMap<string, Mutation>();
+    //    int totalCost = 0;
+    //    do { 
+    //      Mutation m = get_beneficialmutation();
+    //      if (!rolledMutations.has_key(m.name)) {
+    //        if ((totalCost + m.mp) <= allowedCost) {
+    //          rolledMutations.set (m.name, m);
+    //          totalCost += m.mp;
+    //        }
+    //      }
+    //    } 
+    //    while (totalCost < allowedCost); 
+    //    return rolledMutations;
+    //  }
     
     public HashMap<string, Mutation> get_random_mutations(int numberOfMutations) {
       HashMap<string, Mutation> rolledMutations = new HashMap<string, Mutation>();
+      Dice d = new Dice();
+
+      for (int i = 1; i <= numberOfMutations; i++) { 
+        Mutation m = get_beneficialmutation();
+        rolledMutations.set (m.name, m);
+      }
+
       return rolledMutations;
     }
 
@@ -63,7 +70,7 @@ namespace RPGCore {
       HashMap<string, Mutation> possibleMutations = get_possbile_beneficial_mutations();
       
       Dice d = new Dice();
-      int result = d.roll_range(1, 100, 1, false);
+      int result = d.roll_range(1, 128, 1, false);
 
       foreach (var entry in possibleMutations.entries) {
         Mutation mut = entry.value;
@@ -80,7 +87,7 @@ namespace RPGCore {
     private HashMap<string, Mutation> get_possbile_beneficial_mutations() {
       HashMap<string, Mutation> possibleMutations = new HashMap<string, Mutation>();
       File jsonFile;
-      jsonFile = File.new_for_uri ("resource:///data/msrd/MutationsBeneficial.json");
+      jsonFile = File.new_for_uri ("resource:///data/ogl/MutationsBeneficial.json");
       if (jsonFile.query_exists ()) {
         try {
             FileInputStream stream = jsonFile.read ();
