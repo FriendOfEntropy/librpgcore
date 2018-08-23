@@ -37,7 +37,7 @@ public class AbilityGeneratorTests : AbstractTestCase {
     add_test ("Test Random Stat Block", test_statblock_1) ;
     add_test ("Test Random Stat Block", test_statblock_1) ;
     add_test ("Test Random Stat Block", test_statblock_1) ;
-    add_test ("This line to force display ", test_fail_to_display) ;    
+    //add_test ("This line to force display ", test_fail_to_display) ;    
   }
 
   public override void set_up() {

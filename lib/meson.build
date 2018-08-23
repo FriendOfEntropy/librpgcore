@@ -9,7 +9,9 @@ lib_sources = files([
   'src/Mutation.vala',
   'src/MutationGenerator.vala',
   'src/Ability.vala',
-  'src/AbilityGenerator.vala'
+  'src/AbilityGenerator.vala',
+  'src/Character.vala',
+  'src/CharacterGenerator.vala'
 ])
 
 librpgcore = shared_library ( 'librpgcore',

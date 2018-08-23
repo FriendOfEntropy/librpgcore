@@ -28,6 +28,7 @@ void main(string[] args) {
   TestSuite.get_root ().add_suite (new MutationGeneratorTests ().get_suite ()) ;
   TestSuite.get_root ().add_suite (new AbilityTests ().get_suite ()) ;
   TestSuite.get_root ().add_suite (new AbilityGeneratorTests ().get_suite ()) ;
+  TestSuite.get_root ().add_suite (new CharacterGeneratorTests ().get_suite ()) ;
 
   Test.run () ;
 }

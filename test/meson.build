@@ -6,6 +6,7 @@ test_sources = files([
   'MutationGeneratorTests.vala',
   'AbilityTests.vala',
   'AbilityGeneratorTests.vala',
+  'CharacterGeneratorTests.vala',
   'AbstractTestCase.vala'
 ])
 
