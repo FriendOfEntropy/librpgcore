@@ -25,7 +25,7 @@ endif
 pkg = import('pkgconfig')
 
 gnome = import('gnome')
-code_resources = gnome.compile_resources(
+librpgcore_resources = gnome.compile_resources(
     'code-resources', 'lib/data/' + meson.project_name() + '.gresource.xml',
     source_dir: 'lib/data'
 )

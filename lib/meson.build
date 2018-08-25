@@ -4,7 +4,7 @@ vala_args = [
   '--enable-checking',
 ]
 
-lib_sources = files([
+librpgcore_sources = files([
   'src/Dice.vala',
   'src/Mutation.vala',
   'src/MutationGenerator.vala',
@@ -14,14 +14,16 @@ lib_sources = files([
   'src/CharacterGenerator.vala'
 ])
 
+librpgcore_dep = [ gio_dep, glib_dep, gee_dep, gsl_dep, json_dep ]
+
 librpgcore = shared_library ( 'librpgcore',
-  lib_sources,
-  code_resources,
+  librpgcore_sources,
+  librpgcore_resources,
   version: meson.project_version(),
   vala_gir: meson.project_name() + '-' + meson.project_version() + '.gir',
   vala_vapi: meson.project_name() + '.vapi',
   vala_header: meson.project_name() + '.h',
-  dependencies: [ gio_dep, glib_dep, gee_dep, gsl_dep, json_dep ],
+  dependencies: librpgcore_dep,
   c_args: [ '-g' ],
   link_args: ['-lm']
   # install: true,
@@ -44,5 +46,5 @@ pkg.generate(
 )
 
 lib_dep = declare_dependency(
-    sources: lib_sources
+    sources: librpgcore_sources
 )

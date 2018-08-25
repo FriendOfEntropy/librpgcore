@@ -12,7 +12,7 @@ test_sources = files([
 
 tests = executable(
     test_name,
-    code_resources,
+    librpgcore_resources,
     sources: test_sources,
     dependencies: [ gio_dep, glib_dep, gee_dep, gsl_dep, lib_dep, json_dep ],
     c_args: [ '-g' ],
