@@ -26,7 +26,7 @@ pkg = import('pkgconfig')
 
 gnome = import('gnome')
 librpgcore_resources = gnome.compile_resources(
-    'code-resources', 'lib/data/' + meson.project_name() + '.gresource.xml',
+    'librpgcore-resources', 'lib/data/' + meson.project_name() + '.gresource.xml',
     source_dir: 'lib/data'
 )
 
