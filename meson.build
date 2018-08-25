@@ -1,4 +1,4 @@
-project ('com.friendofentropy.librpgcore', ['vala', 'c'],
+project ('librpgcore', ['vala', 'c'],
           version: '0.5',
           license: 'MIT',
           default_options: [
