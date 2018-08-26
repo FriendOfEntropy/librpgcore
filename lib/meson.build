@@ -31,6 +31,7 @@ librpgcore = shared_library ( 'librpgcore',
 )
 
 
+
 pkg.generate(
   libraries: librpgcore,
   version: meson.project_version(),
@@ -46,5 +47,6 @@ pkg.generate(
 )
 
 lib_dep = declare_dependency(
-    sources: librpgcore_sources
+    sources: librpgcore_sources,
+    link_with: librpgcore
 )
