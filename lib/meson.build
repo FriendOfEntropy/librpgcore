@@ -47,6 +47,6 @@ pkg.generate(
 )
 
 lib_dep = declare_dependency(
-    sources: librpgcore_sources,
+    include_directories: include_directories('.'),
     link_with: librpgcore
 )
