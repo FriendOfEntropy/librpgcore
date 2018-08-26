@@ -41,4 +41,4 @@ json_dep = dependency ('json-glib-1.0', version: '>=1.0')
 
 
 subdir ('lib')
-#subdir ('test')
+subdir ('test')
