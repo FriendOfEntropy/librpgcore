@@ -20,6 +20,7 @@ namespace RPGCore {
 
   using GLib;
   using Gee;
+  using Json;
 
   public class Character : GLib.Object {
     
@@ -35,6 +36,14 @@ namespace RPGCore {
     public string to_string ()
     {
       return(to_html()) ;
+    }
+
+    public string to_json ()
+    {
+      Json.Node root = Json.gobject_serialize (this);
+      Json.Generator generator = new Json.Generator ();
+      generator.set_root (root);
+      return generator.to_data (null);            
     }
 
     public string to_html ()
