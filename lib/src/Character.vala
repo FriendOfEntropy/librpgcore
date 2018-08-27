@@ -59,14 +59,10 @@ namespace RPGCore {
 
     public string to_html()
     {
-
-      
-
-
       // First prime abilities
       StringBuilder builder = new StringBuilder();
 
-      builder.append("<table>\n");
+      builder.append("<table class='primeAttributes'>\n");
       builder.append("<tr><th>Abbrev</th><th>Ability</th><th>Score</th><th>Modifier</th></tr>\n");
 
       Ability ability = abilities.get("STR");
