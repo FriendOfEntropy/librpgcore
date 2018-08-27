@@ -27,39 +27,19 @@ namespace RPGCore {
     public HashMap<string, Ability> abilities { get; set; }
     public HashMap<string, Mutation> mutations { get; set; }
 
-    public Character() {
+    public Character () {
       abilities = new HashMap<string, Ability>();
       mutations = new HashMap<string, Mutation>();
     }
     
-    public string to_string()
+    public string to_string ()
     {
-      // First prime abilities
-      StringBuilder builder = new StringBuilder();
-      Ability ability = abilities.get("STR");
-      builder.append(ability.to_string() + "\n");
-  
-      ability = abilities.get("DEX");
-      builder.append(ability.to_string() + "\n");
-  
-      ability = abilities.get("CON");
-      builder.append(ability.to_string() + "\n");
-  
-      ability = abilities.get("INT");
-      builder.append(ability.to_string() + "\n");
-  
-      ability = abilities.get("WIS");
-      builder.append(ability.to_string() + "\n");
-  
-      ability = abilities.get("CHA");
-      builder.append(ability.to_string() + "\n");
-  
-      return(builder.str);
+      return(to_html()) ;
     }
 
-    public string to_html()
+    public string to_html ()
     {
-      // First prime abilities
+      // first prime abilities
       StringBuilder builder = new StringBuilder();
 
       builder.append("<table class='primeAttributes'>\n");
@@ -83,6 +63,18 @@ namespace RPGCore {
       ability = abilities.get("CHA");
       builder.append(render_ability_row(ability));
 
+      builder.append("</table> \n");
+
+      builder.append("\n\n");
+
+      // next beneficial mutations
+      builder.append("<table class='mutations'>\n");
+      builder.append("<tr><th>Name</th></tr>\n");
+
+      foreach (var entry in mutations.entries) {
+        Mutation mut = entry.value;
+        builder.append("<tr><td>" + mut.name + "</td></tr>");
+      }
       builder.append("</table> \n");
 
       return builder.str;
