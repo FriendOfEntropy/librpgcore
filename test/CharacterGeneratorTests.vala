@@ -50,7 +50,7 @@ public class CharacterGeneratorTests : AbstractTestCase {
 
   public virtual void test_chargen_1() {
     Character c = g.generate_random_character();
-    stdout.printf ( "\n"  + c.to_html() + "\n" );
+    stdout.printf ( "\n"  + c.to_json () + "\n" );
     assert (c.abilities.size == 6);
     c = null;
   }
