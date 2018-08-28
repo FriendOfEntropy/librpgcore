@@ -1,0 +1,272 @@
+{
+	"defects": [{
+		"name": "Aberrant Deformity",
+		"from": 1,
+		"to": 4,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Adrenaline Deficiency",
+		"from": 5,
+		"to": 7,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Albinism",
+		"from": 8,
+		"to": 10,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Anaphylaxis",
+		"from": 11,
+		"to": 13,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Atrophied Cerebellum",
+		"from": 14,
+		"to": 16,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Attention Deficit",
+		"from": 17,
+		"to": 19,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Bilirubin Imbalance",
+		"from": 20,
+		"to": 22,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Bizarre Pigmentation",
+		"from": 23,
+		"to": 26,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Blindness",
+		"from": 27,
+		"to": 29,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Brachydactyly",
+		"from": 30,
+		"to": 32,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Cannibalism",
+		"from": 33,
+		"to": 35,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Critical Vulnerability",
+		"from": 36,
+		"to": 38,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Cystic Fibrosis",
+		"from": 39,
+		"to": 41,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Deafness",
+		"from": 42,
+		"to": 44,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Dyslexia",
+		"from": 45,
+		"to": 47,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Hemihypertrophy",
+		"from": 48,
+		"to": 50,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Hemophilia",
+		"from": 51,
+		"to": 53,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Hunchback",
+		"from": 54,
+		"to": 56,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Immune-System Abnormality",
+		"from": 57,
+		"to": 59,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Negative Chemical Reaction",
+		"from": 60,
+		"to": 62,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Neuro-Fibromatosis",
+		"from": 63,
+		"to": 65,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Night Blindness",
+		"from": 66,
+		"to": 68,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Phobia",
+		"from": 69,
+		"to": 71,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Photoluminescent Aural Emission",
+		"from": 72,
+		"to": 74,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Photosensitivity",
+		"from": 75,
+		"to": 77,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Pituitary Deformation",
+		"from": 78,
+		"to": 80,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Sensitivity",
+		"from": 81,
+		"to": 84,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Sickle Cells",
+		"from": 85,
+		"to": 87,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Skeletal Deterioration",
+		"from": 88,
+		"to": 90,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Syncope",
+		"from": 91,
+		"to": 93,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Terminal Limb Deficiency",
+		"from": 94,
+		"to": 96,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Underdeveloped Organ",
+		"from": 97,
+		"to": 100,
+		"source": "Darwin's World 2nd Ed. Core Rulebook"
+	},
+	{
+		"name": "Carnivore",
+		"from": 101,
+		"to": 102,
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Day Person",
+		"from": 103,
+		"to": 103,
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Night Person",
+		"from": 104,
+		"to": 105,
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Herbivore",
+		"from": 106,
+		"to": 107,
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Loner",
+		"from": 108,
+		"to": 109,
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Muzzle",
+		"from": 110,
+		"to": 111,
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Paws",
+		"from": 112,
+		"to": 113,
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Quadruped",
+		"from": 114,
+		"to": 115,
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Reptile Brain",
+		"from": 116,
+		"to": 117,
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Social Animal",
+		"from": 118,
+		"to": 119,
+		"source": "Darwin's World Beastmen"
+	},
+	{
+		"name": "Amnesia",
+		"from": 120,
+		"to": 120,
+		"source": "Tormentor And SpiderTrag's Netbook"
+	},
+	{
+		"name": "Diminished Physical Attribute",
+		"from": 121,
+		"to": 121,
+		"source": "Tormentor And SpiderTrag's Netbook"
+	},
+	{
+		"name": "Moebius Syndrome",
+		"from": 122,
+		"to": 122,
+		"source": "Tormentor And SpiderTrag's Netbook"
+	}]
+}

@@ -39,13 +39,14 @@ public class MutationGeneratorTests : AbstractTestCase {
     add_test ("Get Beneficial Mutation", test_get_beneficial_mutation) ;
     add_test ("Get Beneficial Mutation", test_get_beneficial_mutation) ;
     add_test ("Get Beneficial Mutation", test_get_beneficial_mutation) ;
+    add_test ("Get Defect Mutation", test_get_defect_mutation) ;    
     add_test ("Get 1 Mutations", test_get_random_mutations_1) ;
     add_test ("Get 2 Mutations", test_get_random_mutations_2) ;
     add_test ("Get 3 Mutations", test_get_random_mutations_3) ;
     add_test ("Get 4 Mutations", test_get_random_mutations_4) ;
     add_test ("Get 5 Mutations", test_get_random_mutations_5) ;
     add_test ("Get 6 Mutations", test_get_random_mutations_6) ;
-    //add_test ("This line to force display ", test_fail_to_display) ;    
+    add_test ("This line to force display ", test_fail_to_display) ;    
   }
 
   public override void set_up() {
@@ -59,6 +60,13 @@ public class MutationGeneratorTests : AbstractTestCase {
   public virtual void test_get_beneficial_mutation() {
     HashMap<string, Mutation> list = m.get_possible_mutations(MutationType.BENEFICIAL); 
     Mutation rolledMutation = m.get_mutation(list, 128);
+    stdout.printf (rolledMutation.name + " ") ;
+    assert (rolledMutation != null);
+  }
+
+  public virtual void test_get_defect_mutation() {
+    HashMap<string, Mutation> list = m.get_possible_mutations(MutationType.DEFECT); 
+    Mutation rolledMutation = m.get_mutation(list, 122);
     stdout.printf (rolledMutation.name + " ") ;
     assert (rolledMutation != null);
   }

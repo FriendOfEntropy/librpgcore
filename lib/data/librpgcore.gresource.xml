@@ -3,4 +3,7 @@
   <gresource prefix="data">
     <file compressed="true">ogl/MutationsBeneficial.json</file>
   </gresource>
+  <gresource prefix="data">
+    <file compressed="true">ogl/MutationsDefects.json</file>
+  </gresource>  
 </gresources>
