@@ -57,14 +57,15 @@ public class MutationGeneratorTests : AbstractTestCase {
   }
 
   public virtual void test_get_beneficial_mutation() {
-    Mutation rolledMutation = m.get_beneficialmutation();
+    HashMap<string, Mutation> list = m.get_possible_mutations(MutationType.BENEFICIAL); 
+    Mutation rolledMutation = m.get_mutation(list, 128);
     stdout.printf (rolledMutation.name + " ") ;
     assert (rolledMutation != null);
   }
 
   public virtual void test_get_random_mutations_1() {
     int numberOfMutations = 1;
-    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
+    HashMap<string, Mutation> list = m.get_random_mutations(MutationType.BENEFICIAL, numberOfMutations);
     StringBuilder builder = new StringBuilder();
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;
@@ -76,7 +77,7 @@ public class MutationGeneratorTests : AbstractTestCase {
 
   public virtual void test_get_random_mutations_2() {
     int numberOfMutations = 2;
-    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
+    HashMap<string, Mutation> list = m.get_random_mutations(MutationType.BENEFICIAL, numberOfMutations);
     StringBuilder builder = new StringBuilder();
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;
@@ -88,7 +89,7 @@ public class MutationGeneratorTests : AbstractTestCase {
 
   public virtual void test_get_random_mutations_3() {
     int numberOfMutations = 3;
-    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
+    HashMap<string, Mutation> list = m.get_random_mutations(MutationType.BENEFICIAL, numberOfMutations);
     StringBuilder builder = new StringBuilder();
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;
@@ -100,7 +101,7 @@ public class MutationGeneratorTests : AbstractTestCase {
 
   public virtual void test_get_random_mutations_4() {
     int numberOfMutations = 4;
-    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
+    HashMap<string, Mutation> list = m.get_random_mutations(MutationType.BENEFICIAL, numberOfMutations);
     StringBuilder builder = new StringBuilder();
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;
@@ -112,7 +113,7 @@ public class MutationGeneratorTests : AbstractTestCase {
 
   public virtual void test_get_random_mutations_5() {
     int numberOfMutations = 5;
-    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
+    HashMap<string, Mutation> list = m.get_random_mutations(MutationType.BENEFICIAL, numberOfMutations);
     StringBuilder builder = new StringBuilder();
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;
@@ -124,7 +125,7 @@ public class MutationGeneratorTests : AbstractTestCase {
 
   public virtual void test_get_random_mutations_6() {
     int numberOfMutations = 6;
-    HashMap<string, Mutation> list = m.get_random_mutations(numberOfMutations);
+    HashMap<string, Mutation> list = m.get_random_mutations(MutationType.BENEFICIAL, numberOfMutations);
     StringBuilder builder = new StringBuilder();
     foreach (var entry in list.entries) {
       Mutation mut = entry.value;

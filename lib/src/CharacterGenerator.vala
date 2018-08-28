@@ -37,7 +37,8 @@ namespace RPGCore {
       MutationGenerator mutationGenerator = new MutationGenerator();
       
       character.abilities = abilityGenerator.get_random_abilities();
-      character.mutations = mutationGenerator.get_random_mutations(3);
+      character.mutations = mutationGenerator.get_random_mutations(MutationType.BENEFICIAL, 3);
+      character.defects = mutationGenerator.get_random_mutations(MutationType.DEFECT, 3);
 
       return character;
     }
