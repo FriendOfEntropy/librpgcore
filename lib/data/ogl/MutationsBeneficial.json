@@ -620,7 +620,7 @@
 		"source": "Darwin's World Beastmen"
 	},
 	{
-		"name": "Heightened Mental Attribute",
+		"name": "Heightened <MentalAbility>",
 		"from": 106,
 		"to": 109,
 		"description": "One of the mutant’s mental attributes is improved.",
@@ -630,7 +630,7 @@
 		"source": "Tormentor And SpiderTrag's Netbook"
 	},
 	{
-		"name": "Heightened Physical Attribute",
+		"name": "Heightened <PhysicalAbility>",
 		"from": 110,
 		"to": 113,
 		"description": "One of the mutant’s physical attributes is improved.",
@@ -640,7 +640,7 @@
 		"source": "Tormentor And SpiderTrag's Netbook"
 	},
 	{
-		"name": "Electromagnetic Pules Generation",
+		"name": "Electromagnetic Pulse Generation",
 		"from": 114,
 		"to": 114,
 		"description": "The mutant can generate a tight pulse of electromagnetic energy which can be discharged from his hands or eyes. This attack damages electronic, cybernetic, and robotic components, however, it does very little damage to living targets.",

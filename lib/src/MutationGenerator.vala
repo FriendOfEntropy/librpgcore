@@ -49,7 +49,7 @@ namespace RPGCore {
 		public HashMap<string, Mutation> get_random_mutations(MutationType mutation_type, int number_of_mutations) {
 			HashMap<string, Mutation> possibleMutations = get_possible_mutations(mutation_type);
 
-			int maxRoll = (mutation_type == MutationType.BENEFICIAL) ? 128 : 100;
+			int maxRoll = (mutation_type == MutationType.BENEFICIAL) ? 128 : 122;
 
 			HashMap<string, Mutation> rolledMutations = new HashMap<string, Mutation>();
 			Dice d = new Dice();
