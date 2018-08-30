@@ -72,7 +72,7 @@ namespace RPGCore {
 			Mutation response = null;
 		
 			Dice d = new Dice();
-			int result = d.roll_range(1, max_roll, 1, false);
+			int result = d.roll_range(1, max_roll, 1);
 
 			foreach (var entry in possible_mutations.entries) {
 				Mutation mut = entry.value;

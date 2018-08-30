@@ -54,25 +54,25 @@ public class DiceTests : AbstractTestCase {
   }
 
   public virtual void test_roll_1to6() {
-    int result = d.roll_range(1, 6, 1, false);
+    int result = d.roll_range(1, 6, 1);
     stdout.printf ("Total = %d ", result);
     assert ((result >= 1) && (result <= 6));
   }
 
   public virtual void test_roll_1to8() {
-    int result = d.roll_range(1, 8, 1, false);
+    int result = d.roll_range(1, 8, 1);
     stdout.printf ("Total = %d ", result);
     assert ((result >= 1) && (result <= 8));
   }  
 
   public virtual void test_roll_1to6_3_times() {
-    int result = d.roll_range(1, 6, 3, false);
+    int result = d.roll_range(1, 6, 3);
     stdout.printf ("Total = %d ", result);
     assert ((result >= 3) && (result <= 18));
   } 
 
   public virtual void test_roll_1to100() {
-    int result = d.roll_range(1, 100, 1, false);
+    int result = d.roll_range(1, 100, 1);
     stdout.printf ("Total = %d ", result);
     assert ((result >= 1) && (result <= 100));
   } 

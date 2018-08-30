@@ -37,7 +37,7 @@ public class CharacterGeneratorTests : AbstractTestCase {
     add_test ("Test Random Character", test_chargen_1) ;
     add_test ("Test Random Character", test_chargen_1) ;
     add_test ("Test Random Character", test_chargen_1) ;
-    add_test ("This line to force display ", test_fail_to_display) ;    
+    //add_test ("This line to force display ", test_fail_to_display) ;    
   }
 
   public override void set_up() {
