@@ -27,11 +27,11 @@ namespace RPGCore {
     public int from { get; set; }
     public int to { get; set; }
     public string name { get; set; }
-    public string description { get; set; }
-    public string benefitOrPenalty { get; set; }
-    public string advancement { get; set; }
-    public string special { get; set; }
-    public string source { get; set; }
+    public string description { get; set; default = ""; }
+    public string benefitOrPenalty { get; set; default = ""; }
+    public string advancement { get; set; default = ""; }
+    public string special { get; set; default = ""; }
+    public string source { get; set; default = ""; }
 
     public Mutation() {
     }

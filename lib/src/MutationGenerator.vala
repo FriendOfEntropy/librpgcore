@@ -127,7 +127,7 @@ namespace RPGCore {
                 }
             }
             else {
-                stderr.printf("Could not find resource file");
+                stderr.printf("Could not find resource file: %s\n", resourceFileToLoad);
             }
 
             return possibleMutations;

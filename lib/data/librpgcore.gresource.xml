@@ -5,5 +5,5 @@
   </gresource>
   <gresource prefix="data">
     <file compressed="true">ogl/MutationsDefects.json</file>
-  </gresource>  
+  </gresource>
 </gresources>
