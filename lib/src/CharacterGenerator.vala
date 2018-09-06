@@ -1,25 +1,29 @@
+/*
+* Copyright (c) 2018 FriendOfEntropy (https://github.com/FriendOfEntropy/librpgcore)
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU LESSER GENERAL PUBLIC
+* LICENSE as published by the Free Software Foundation; either
+* version 3 of the License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with this program; if not, write to the
+* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+* Boston, MA 02110-1301 USA
+*
+* Authored by: FriendOfEntropy <FriendOfEntropy@gmail.com>
+*/
 
-/* Copyright 2018 FriendOfEntropy <FriendOfEntropy@gmail.com>
- *
- * This file is part of rpgcore.
- *
- * FriendOfEntropy licenses this file to you under the MIT license.
- * See the LICENSE file in the project root for more information.
- *
- * rpgcore IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- *
- */
 namespace RPGCore {
 
   using GLib;
   using Gee;
-  
+
   public class CharacterGenerator : GLib.Object
   {
     RPGCore.Dice dice;
@@ -35,9 +39,9 @@ namespace RPGCore {
 
       AbilityGenerator abilityGenerator = new AbilityGenerator();
       MutationGenerator mutationGenerator = new MutationGenerator();
-      
+
       character.abilities = abilityGenerator.get_random_abilities();
-      
+
       character.mutations = mutationGenerator.get_random_mutations(MutationType.BENEFICIAL, 3);
 
       dice = new RPGCore.Dice();
@@ -53,41 +57,41 @@ namespace RPGCore {
         if (mut.name.contains(mentalAbilityTag)) {
           int result = dice.roll_dicetype(DiceType.d6);
           switch (result) {
-            case 1: 
+            case 1:
             case 6:
               abilityKey = "INT";
               break;
-            case 3: 
+            case 3:
             case 4:
               abilityKey = "WIS";
               break;
-            default: 
+            default:
               abilityKey = "CHA";
               break;
-          }          
+          }
           ab = character.abilities.get(abilityKey);
-          mut.name = mut.name.replace (mentalAbilityTag, ab.name);  
+          mut.name = mut.name.replace (mentalAbilityTag, ab.name);
           ab.score += 1;
         }
-        
+
 
         if (mut.name.contains(physicalAbilityTag)) {
           int result = dice.roll_dicetype(DiceType.d6);
           switch (result) {
-            case 1: 
+            case 1:
             case 6:
               abilityKey = "STR";
               break;
-            case 3: 
+            case 3:
             case 4:
               abilityKey = "DEX";
               break;
-            default: 
+            default:
               abilityKey = "CON";
               break;
-          }          
+          }
           ab = character.abilities.get(abilityKey);
-          mut.name = mut.name.replace (physicalAbilityTag, ab.name);  
+          mut.name = mut.name.replace (physicalAbilityTag, ab.name);
           ab.score += 1;
         }
 			}
@@ -102,23 +106,23 @@ namespace RPGCore {
         if (mut.name.contains(physicalAbilityTag)) {
           int result = dice.roll_dicetype(DiceType.d6);
           switch (result) {
-            case 1: 
+            case 1:
             case 6:
               abilityKey = "STR";
               break;
-            case 3: 
+            case 3:
             case 4:
               abilityKey = "DEX";
               break;
-            default: 
+            default:
               abilityKey = "CON";
               break;
-          }          
+          }
           ab = character.abilities.get(abilityKey);
-          mut.name = mut.name.replace (physicalAbilityTag, ab.name);  
+          mut.name = mut.name.replace (physicalAbilityTag, ab.name);
           ab.score -= 1;
         }
-			}   
+			}
 
       return character;
     }

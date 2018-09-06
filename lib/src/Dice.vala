@@ -1,23 +1,26 @@
-
-/* Copyright 2018 FriendOfEntropy <FriendOfEntropy@gmail.com>
- *
- * This file is part of rpgcore.
- *
- * FriendOfEntropy licenses this file to you under the MIT license.
- * See the LICENSE file in the project root for more information.
- *
- * rpgcore IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- *
- */
+/*
+* Copyright (c) 2018 FriendOfEntropy (https://github.com/FriendOfEntropy/librpgcore)
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU LESSER GENERAL PUBLIC
+* LICENSE as published by the Free Software Foundation; either
+* version 3 of the License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with this program; if not, write to the
+* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+* Boston, MA 02110-1301 USA
+*
+* Authored by: FriendOfEntropy <FriendOfEntropy@gmail.com>
+*/
 
 namespace RPGCore {
-  
+
   using Gsl;
 
   public enum DiceType
@@ -37,7 +40,7 @@ namespace RPGCore {
 
   }
 
-  
+
 
   /// <summary>
   /// The Dice class wraps the Random class, automatically providing seeding.
@@ -81,11 +84,11 @@ namespace RPGCore {
 
       for(uint x = 0; x <= (numberOfRolls - 1); x++) {
 
-        do { 
+        do {
           ulong u = r.uniform_int (max);
           result = (int) u + 1;
-        } 
-        while (result < min);          
+        }
+        while (result < min);
         results.append(result);
       }
       results.sort(intcmp);
